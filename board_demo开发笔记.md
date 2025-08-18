@@ -1,12 +1,12 @@
-## 数据库
+## 2 数据库
 
 
 
-## 功能
+## 3 功能
 
-## 各种配置
+## 4 各种配置
 
-### MyBatis-plus
+### 4.1 MyBatis-plus
 
 代码生成器
 
@@ -148,7 +148,7 @@ public class SggCodeGenertor {
 
 ```
 
-#### 手搓
+#### 4.1.1 手搓
 
 - mapper
 
@@ -166,7 +166,7 @@ public class SggCodeGenertor {
 
   
 
-### redis
+### 4.2 redis
 
 缓存用的 和我虚拟机上ubuntu连着
 
@@ -208,7 +208,7 @@ tab不能用resource注入 它不是bean
 
 目前诊断为Redis没连上导致的，我的天哪不要再改配置文件了好吗好的。我的本地映射里面有路径
 
-## groovy代码生成器
+## 5 groovy代码生成器
 
 groovy是写脚本的
 
@@ -224,7 +224,7 @@ groovy是写脚本的
 
 然后跟着敲就可以了
 
-## Redis
+## 6 Redis
 
 我这主要用来存存token
 
@@ -245,7 +245,7 @@ public void attachAdminToken(UserAccountDetailVO vo) {
 
 就是搞一个token，一段时间内免登录（其实就是不用动一下就登陆注册555）
 
-## 日志与错误
+## 7 日志与错误
 
 日志都生成好了
 
@@ -277,19 +277,19 @@ public class MyBizException extends BizException {
 
 这样错误就能throw给接口啦
 
-## 登陆注册
+## 8 登陆注册
 
-### 登录
+### 8.1 登录
 
 登录的本质是get查询 每次登录都生成一个新token 存到redis中
 
 coze： pat_j5CwAbMGzY1mI1p6AmjBRzkizA6lnz155WuRCrt06dQ6QuEYilIbWUgdmkHT8KbC
 
-### 注册
+### 8.2 注册
 
 注册更简单，存起来就完事了，前端加油
 
-### 关于Token
+### 8.3 关于Token
 
 **JWT** :由三部分组成
 
@@ -299,11 +299,11 @@ signature：通过密钥将前两者加密得到最终的token
 这三部分中间使用 " . " 分隔开，并且都会使用Base64编码方式编码,如下
 eyJhbGc6IkpXVCJ9.eyJpc3MiOiJCIsImVzg5NTU0NDUiLCJuYW1lnVlfQ.SwyHTf8AqKYMAJc
 
-## 用户信息
+## 9 用户信息
 
 各种接口随随便便就生成出来了 主要还是有一个
 
-### 模糊查询
+### 9.1 模糊查询
 
 ```java
 MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
