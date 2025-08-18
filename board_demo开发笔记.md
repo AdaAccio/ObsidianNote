@@ -320,4 +320,4 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 根据id查作品（这个是必需的 一对多）
 模糊查找 按照时间排序
 存 需要顺手把时间也给存进去
-图or文 这个也有需求
+图or文 这个也有需求 0是文章 1是图片
