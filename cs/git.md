@@ -1,15 +1,15 @@
 
-## branch
+## 0.1 branch
 
 针对多人操作
 
 切换分支，自己的资源管理器中也会变文件
 
-### merge
+### 0.1.1 merge
 
 把分支合到主分支
 
-## 命令行
+## 0.2 命令行
 
 1. `git init` 创建一个空仓库，里面只有.git文件夹
     
@@ -52,7 +52,7 @@
     在 IDEA 中 打开 `File->new->Project from version control` 新打开一个路径
     
 
-### 分支
+### 0.2.1 分支
 
 - 创建分支 需要提交至少一次文件之后 因为分支基于提交 可以在.git\refs\heads中查看
     
@@ -73,13 +73,13 @@
 
 出现冲突？![image-20250513174135100](file:///C:/Users/15141/AppData/Roaming/Typora/typora-user-images/image-20250513174135100.png?lastModify=1755503548)手动改一下 再保存 再add
 
-### 标签
+### 0.2.2 标签
 
 `git tag` +换行+tag
 
 `-d` 删除
 
-### 多账号问题
+### 0.2.3 多账号问题
 
 可以看这个help文档
 
