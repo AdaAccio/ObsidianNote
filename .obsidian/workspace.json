@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 238.5
   },
   "right": {
     "id": "0f718bda25a908a9",
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md",
+                "file": "cs/git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "欢迎 的大纲"
+              "title": "git 的大纲"
             }
           },
           {
@@ -185,9 +185,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "eea3779541a7661e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -202,18 +212,20 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "e856bc8c37f5ea59",
   "lastOpenFiles": [
+    "cs/Linux_Ubuntu.md",
+    "MyOwnObsidian/Dataview.md",
     "cs/git.md",
     "cs/MySql.md",
-    "MyOwnObsidian/Dataview.md",
-    "欢迎.md",
-    "board_demo开发笔记.md",
-    "cs",
     "同人设定整理/白刻.md",
+    "board_demo开发笔记.md",
+    "欢迎.md",
+    "cs",
     "同人文Maybe/未命名.md",
     "同人设定整理",
     "obsidian",

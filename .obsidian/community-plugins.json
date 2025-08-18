@@ -3,5 +3,8 @@
   "templater-obsidian",
   "obsidian-tasks-plugin",
   "file-explorer-note-count",
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian",
+  "obsidian-image-auto-upload-plugin",
+  "number-headings-obsidian"
 ]
