@@ -12,4 +12,8 @@
 
 # 语句
 
-`ALTER TABLE work_info add COLUMN description varchar(128);` 
+
+这是个加入列的语句
+```mysql
+ALTER TABLE work_info add COLUMN description varchar(128);
+```
