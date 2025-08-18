@@ -2,5 +2,6 @@
   "dataview",
   "templater-obsidian",
   "obsidian-tasks-plugin",
-  "file-explorer-note-count"
+  "file-explorer-note-count",
+  "obsidian-git"
 ]
