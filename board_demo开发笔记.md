@@ -224,6 +224,7 @@ groovy是写脚本的
 `groovy .\jCoder.groovy`
 
 然后跟着敲就可以了
+第一次创建tab的时候需要重复上述操作
 
 ## 6 Redis
 
