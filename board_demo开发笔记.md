@@ -317,6 +317,7 @@ public void attachAdminToken(UserAccountDetailVO vo) {
 }
 
 ```
+#### 8.3.2 校验
 
 
 ## 9 用户信息
