@@ -199,15 +199,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c246f1fb16b71cc",
+  "active": "f16adc82d1cc8835",
   "lastOpenFiles": [
+    "MyOwnObsidian/Dataview.md",
     "obsidian",
     "同人文Maybe",
     "board_demo开发笔记.md",
-    "MyOwnObsidian/Dataview.md",
     "MyOwnObsidian",
     "未命名.canvas",
     "欢迎.md",
