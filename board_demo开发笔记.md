@@ -214,7 +214,8 @@ groovy是写脚本的
 
 先把 `template/dao/mybatisplus/jMyBatisPlus.groovy` 复制下来 
 
-<img src="C:/Users/15141/AppData/Roaming/Typora/typora-user-images/image-20250815141258193.png" alt="image-20250815141258193" style="zoom: 33%;" />
+![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250818163305079.png)
+
 
 然后进去 把groovy文件粘贴到这个目录
 
