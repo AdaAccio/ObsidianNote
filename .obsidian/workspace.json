@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO list.md",
+                "file": "MyOwnObsidian/Dataview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO list"
+              "title": "Dataview"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO list.md",
+                "file": "MyOwnObsidian/Dataview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "TODO list 的大纲"
+              "title": "Dataview 的大纲"
             }
           },
           {
@@ -209,8 +209,9 @@
   },
   "active": "4c22cd3bfc3d6844",
   "lastOpenFiles": [
-    "board_demo开发笔记.md",
+    "MyOwnObsidian/图片.md",
     "TODO list.md",
+    "board_demo开发笔记.md",
     "知识点/拦截器.md",
     "image-1.png",
     "image.png",
@@ -221,7 +222,6 @@
     "cs/MySql.md",
     "cs/cs.md",
     "cs/git.md",
-    "MyOwnObsidian/图片.md",
     "MyOwnObsidian/Dataview.md",
     "MyOwnObsidian/MyOwnObsidian.md",
     "欢迎.md",
