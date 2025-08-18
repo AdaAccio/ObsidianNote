@@ -6,7 +6,6 @@
       {
         "id": "36cd967d134c7f5b",
         "type": "tabs",
-        "dimension": 72.98657718120806,
         "children": [
           {
             "id": "36428c8e6c575afa",
@@ -31,30 +30,23 @@
               "icon": "lucide-git-fork",
               "title": "关系图谱"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "02f740174515033b",
-        "type": "tabs",
-        "dimension": 27.013422818791945,
-        "children": [
+          },
           {
             "id": "e856bc8c37f5ea59",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "同人设定整理/白刻.md",
-                "bFile": "同人设定整理/白刻.md",
-                "aRef": ""
+                "file": "同人设定整理/白刻.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 白刻"
+              "icon": "lucide-file",
+              "title": "白刻"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,6 +207,7 @@
   },
   "active": "e856bc8c37f5ea59",
   "lastOpenFiles": [
+    "欢迎.md",
     "同人设定整理/白刻.md",
     "同人文Maybe/未命名.md",
     "未命名",
@@ -225,7 +218,6 @@
     "board_demo开发笔记.md",
     "MyOwnObsidian",
     "未命名.canvas",
-    "欢迎.md",
     "未命名 1.canvas",
     "2025-08-18.md"
   ]
