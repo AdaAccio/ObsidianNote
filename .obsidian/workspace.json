@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "同人设定整理/白刻.md",
+                "file": "cs/MySql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "白刻"
+              "title": "MySql"
             }
           }
         ],
@@ -205,17 +205,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e856bc8c37f5ea59",
+  "active": "3c246f1fb16b71cc",
   "lastOpenFiles": [
     "欢迎.md",
+    "cs/MySql.md",
+    "MyOwnObsidian/Dataview.md",
+    "board_demo开发笔记.md",
+    "cs",
     "同人设定整理/白刻.md",
     "同人文Maybe/未命名.md",
-    "未命名",
     "同人设定整理",
-    "MyOwnObsidian/Dataview.md",
     "obsidian",
     "同人文Maybe",
-    "board_demo开发笔记.md",
     "MyOwnObsidian",
     "未命名.canvas",
     "未命名 1.canvas",
