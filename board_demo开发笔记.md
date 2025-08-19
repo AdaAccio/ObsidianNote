@@ -356,4 +356,4 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 > 
 > 再创建一个类 实现 `MetaObjectHandler`  接口 并且重写 `insertFill` 和 `updateFill` 方法。
 
-上述方法很失败，并且对我的项目造成了伤害，我再也不会用了。我自己的ICommonResult类并不能处理date，于是我决定在数据库中实现一下
+上述方法很失败，并且对我的项目造成了伤害，我再也不会用了。我自己的ICommonResult类并不能处理date，并且mybatis-plus的updateById方法有问题，于是我决定在数据库中实现一下
