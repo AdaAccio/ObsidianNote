@@ -9,3 +9,4 @@
 	</dependency>
 </dependencies>
 ```
+## 2 配置类
