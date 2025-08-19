@@ -218,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,7 +236,9 @@
   },
   "active": "3a37436f0d230fe3",
   "lastOpenFiles": [
+    "MyOwnObsidian/Dataview.md",
     "cs/MySql.md",
+    "2025-08-18.md",
     "board_demo开发笔记.md",
     "知识点/SpringSecurity.md",
     "知识点/List排序.md",
@@ -248,10 +249,8 @@
     "未命名",
     "MyOwnObsidian/MyOwnObsidian.md",
     "TODO list.md",
-    "MyOwnObsidian/Dataview.md",
     "MyOwnObsidian/图片.md",
     "cs/cs.md",
-    "2025-08-18.md",
     "知识点/Comparator.md",
     "cs/ai相关",
     "知识点/拦截器.md",

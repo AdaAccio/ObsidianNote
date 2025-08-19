@@ -321,7 +321,8 @@ public void attachAdminToken(UserAccountDetailVO vo) {
 ```
 #### 7.3.2 校验
 需要 [[拦截器]] 先不写了
-并且还需要[[SpringSecurity]]
+并且还需要[[SpringSecurity]] 的相关知识
+此项目的过滤器已经
 
 ## 8 用户信息
 
