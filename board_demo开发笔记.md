@@ -345,4 +345,10 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 图or文 这个也有需求 0是文章 1是图片
 查询之后给[[List排序]]
 
-**时间**：`@TableField(fill = FieldFill.INSERT) //创建时自动填充`
+### 9.1 自动生成时间戳
+
+前提：需要数据类型为datetime
+
+方法：mybatis-plus自动填充字段
+
+实体类中 xu'yao
