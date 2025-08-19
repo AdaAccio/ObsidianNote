@@ -324,6 +324,8 @@ public void attachAdminToken(UserAccountDetailVO vo) {
 并且还需要[[SpringSecurity]] 的相关知识
 此项目使用过滤器实现的
 
+设置需要token才能放行之后
+
 ## 8 用户信息
 
 各种接口随随便便就生成出来了 主要还是有一个
@@ -362,4 +364,6 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 上述方法很失败，并且对我的项目造成了伤害，我再也不会用了。我自己的ICommonResult类并不能处理date，并且mybatis-plus的updateById方法有问题，于是我决定在数据库中实现一下
 
 使用mysql语句 [[MySql#^f467e4]] 一句话解决 省时省力 ==不过需要注意传参数不能传入 `created_at` 否则会把输入的日期存进去==
+
+
 
