@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO list.md",
+                "file": "board_demo开发笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO list"
+              "title": "board_demo开发笔记"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO list.md",
+                "file": "board_demo开发笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "TODO list 的大纲"
+              "title": "board_demo开发笔记 的大纲"
             }
           },
           {
@@ -195,6 +195,7 @@
   },
   "active": "1fcd086c197b6cc3",
   "lastOpenFiles": [
+    "TODO list.md",
     "知识点/SpringSecurity.md",
     "().md",
     "未命名 3.base",
@@ -219,7 +220,6 @@
     "image-2.png",
     "image-1.png",
     "image.png",
-    "TODO list.md",
     "cs/MySql.md",
     "2025-08-18.md",
     "MyOwnObsidian/Dataview.md",

@@ -379,4 +379,12 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 
 
 
-## 10 邮箱验证码
+## 10 管理员相关
+
+管理员要做的事：
+
+删除文章 怎么删都行
+
+更改用户的member_flag
+
+删除账号
