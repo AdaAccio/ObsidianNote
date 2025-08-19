@@ -15,8 +15,23 @@
 ## 2 配置类
 
 ```java
-@EnableWebSecurity 
-@Configuration 
-public class DefaultSecurityConfig { @Bean @ConditionalOnMissingBean(UserDetailsService.class) InMemoryUserDetailsManager inMemoryUserDetailsManager() { String generatedPassword = // ...; return new InMemoryUserDetailsManager(User.withUsername("user") .password(generatedPassword).roles("ROLE_USER").build()); } @Bean @ConditionalOnMissingBean(AuthenticationEventPublisher.class) DefaultAuthenticationEventPublisher defaultAuthenticationEventPublisher(ApplicationEventPublisher delegate) { return new DefaultAuthenticationEventPublisher(delegate); } }
+@EnableWebSecurity
+@Configuration
+public class DefaultSecurityConfig {
+    @Bean
+    @ConditionalOnMissingBean(UserDetailsService.class)
+    InMemoryUserDetailsManager inMemoryUserDetailsManager() {
+        String generatedPassword = // ...;
+        return new InMemoryUserDetailsManager(User.withUsername("user")
+                .password(generatedPassword).roles("ROLE_USER").build());
+    }
+
+    @Bean
+    @ConditionalOnMissingBean(AuthenticationEventPublisher.class)
+    DefaultAuthenticationEventPublisher defaultAuthenticationEventPublisher(ApplicationEventPublisher delegate) {
+        return new DefaultAuthenticationEventPublisher(delegate);
+    }
+}
 ```
 
+`@EnableWebSecurity` 注解 
