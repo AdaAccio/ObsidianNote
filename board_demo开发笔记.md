@@ -351,4 +351,5 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 
 方法：mybatis-plus自动填充字段
 
-实体类中 xu'yao
+实体类中 需要加上注解  `@TableField(fill = FieldFill.INSERT)`
+
