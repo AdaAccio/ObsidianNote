@@ -388,3 +388,5 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 更改用户的member_flag
 
 删除账号
+
+需要有新增一张表，把发来申请的存起来
