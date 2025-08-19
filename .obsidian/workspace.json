@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "board_demo开发笔记.md",
+                "file": "cs/MySql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "board_demo开发笔记"
+              "title": "MySql"
             }
           },
           {
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "board_demo开发笔记.md",
+                "file": "cs/MySql.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "board_demo开发笔记 的大纲"
+              "title": "MySql 的大纲"
             }
           },
           {
@@ -250,14 +250,15 @@
   },
   "active": "3a37436f0d230fe3",
   "lastOpenFiles": [
-    "cs/MySql.md",
     "board_demo开发笔记.md",
-    "MyOwnObsidian/Dataview.md",
-    "2025-08-18.md",
-    "知识点/SpringSecurity.md",
     "知识点/List排序.md",
+    "知识点/Comparator.md",
+    "知识点/SpringSecurity.md",
     "cs/ai相关/ai相关.md",
     "cs/ai相关/prompt.md",
+    "cs/MySql.md",
+    "MyOwnObsidian/Dataview.md",
+    "2025-08-18.md",
     "cs/git.md",
     "cs/Linux_Ubuntu.md",
     "未命名",
@@ -265,7 +266,6 @@
     "TODO list.md",
     "MyOwnObsidian/图片.md",
     "cs/cs.md",
-    "知识点/Comparator.md",
     "cs/ai相关",
     "知识点/拦截器.md",
     "image-1.png",

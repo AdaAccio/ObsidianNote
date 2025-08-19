@@ -1,5 +1,5 @@
 
-## 2 规定输出格式
+## 1 规定输出格式
 
 ```java
 public void init() {  
