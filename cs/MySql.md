@@ -27,6 +27,7 @@ ALTER TABLE work_info add COLUMN description varchar(128);
 ```mysql
 ALTER TABLE posts DROP COLUMN excerpt;
 ```
+
 设置时间戳 需要创建列的时候就注意
 ```mysql
 ALTER TABLE `work_info` ADD COLUMN `created_at` datetime DEFAULT CURRENT_TIMESTAMP;
