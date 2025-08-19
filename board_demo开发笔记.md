@@ -347,11 +347,13 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 
 ### 9.1 自动生成时间戳
 
-前提：需要数据类型为datetime
+> [!NOTE]
+> 前提：需要数据类型为datetime
+> 
+> 方法：mybatis-plus自动填充字段
+> 
+> 实体类中 需要加上注解  `@TableField(fill = FieldFill.INSERT)`
+> 
+> 再创建一个类 实现 `MetaObjectHandler`  接口 并且重写 `insertFill` 和 `updateFill` 方法。
 
-方法：mybatis-plus自动填充字段
-
-实体类中 需要加上注解  `@TableField(fill = FieldFill.INSERT)`
-
-再创建一个类 实现 `MetaObjectHandler`  接口 并且重写 `insertFill` 和 `updateFill` 方法。
-
+上述方法很失败，并且对我的项目造成了伤害，我再也不会用了。我自己的ICommonResult类并不能处理date，于是我决定在数据库中实现一下
