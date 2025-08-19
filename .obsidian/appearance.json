@@ -1,4 +1,7 @@
 {
   "accentColor": "#8aaccc",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "no-wrapper"
+  ]
 }
