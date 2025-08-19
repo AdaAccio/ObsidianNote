@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:#ai ",
       "color": {
         "a": 1,
         "rgb": 11392604
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
-  "close": false
+  "scale": 0.7132754626224428,
+  "close": true
 }
