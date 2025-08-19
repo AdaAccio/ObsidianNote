@@ -324,7 +324,8 @@ public void attachAdminToken(UserAccountDetailVO vo) {
 并且还需要[[SpringSecurity]] 的相关知识
 此项目使用过滤器实现的
 
-设置需要token才能放行之后
+设置需要token才能放行之后遇到了无法导入接口文档的问题
+![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250819163603925.png)
 
 ## 8 用户信息
 
@@ -367,3 +368,4 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 
 
 
+## 10 邮箱验证码
