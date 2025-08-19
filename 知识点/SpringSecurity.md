@@ -45,7 +45,37 @@ public class DefaultSecurityConfig {
 `@EnableWebSecurity` 注解：启用web安全性
 
 ```java
-
+@Configuration  
+@EnableWebSecurity  
+public class SpringSecurityConfig {  
+    @Resource  
+    private TokenAuthenticationFilter tokenAuthenticationFilter;  
+  
+    @Bean  
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {  
+        http.headers(headers -> headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::disable))  
+                .csrf(AbstractHttpConfigurer::disable)  
+                .httpBasic(Customizer.withDefaults())  
+                .formLogin(AbstractHttpConfigurer::disable)  
+                .logout(AbstractHttpConfigurer::disable)  
+                .sessionManagement((sessionManagement) -> sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))  
+                .authorizeHttpRequests((authorizeRequests) ->  
+                        authorizeRequests  
+                                .requestMatchers(  
+                                        "/auth/api-user-account-get",  
+                                        "/auth/api-user-account-save",  
+                                        "/work/api-work-info-get",  
+                                        "/work/api-work-info-user",  
+                                        "/work/api-work-info-search",  
+                                        "/v3/api-docs"  
+                                ).permitAll()  
+                                .anyRequest().authenticated()  
+                )  
+                .addFilterBefore(tokenAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);  
+        return http.build();  
+    }  
+  
+}
 ```
 
 ## 3 日志
