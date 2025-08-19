@@ -353,3 +353,5 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 
 实体类中 需要加上注解  `@TableField(fill = FieldFill.INSERT)`
 
+再创建一个类 实现 `MetaObjectHandler`  接口 并且重写 `insertFill` 和 `updateFill` 方法。
+
