@@ -1,6 +1,14 @@
 #java #Spring 
 
 [Spring中文文档](https://springdoc.cn/spring-security/)
+[SpringSecurity]([Spring Security](https://spring.io/projects/spring-security))
+
+
+> [!NOTE] 简介
+> 安全框架，方便使用，高度定制化
+
+[[de-facto]] 
+
 ## 1 依赖
 
 ```xml

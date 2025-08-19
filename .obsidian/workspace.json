@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "4fec6b8209d6c9c4",
+            "id": "13159c90fb181629",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,9 +34,51 @@
               "icon": "lucide-file",
               "title": "SpringSecurity"
             }
+          },
+          {
+            "id": "49ed113775f8a586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识点/会话固定攻击.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "会话固定攻击"
+            }
+          },
+          {
+            "id": "8612cae289605c8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识点/cookie session token.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cookie session token"
+            }
+          },
+          {
+            "id": "bf7d101ef0d1605c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英文/de-facto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "de-facto"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0f718bda25a908a9",
@@ -158,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识点/SpringSecurity.md",
+                "file": "知识点/cookie session token.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SpringSecurity 的大纲"
+              "title": "cookie session token 的大纲"
             }
           },
           {
@@ -209,10 +250,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4fec6b8209d6c9c4",
+  "active": "8612cae289605c8c",
   "lastOpenFiles": [
+    "知识点/会话固定攻击.md",
+    "知识点/cookie session token.md",
+    "未命名",
     "board_demo开发笔记.md",
     "知识点/SpringSecurity.md",
+    "英文/session fixation attack.md",
+    "英文/de-facto.md",
+    "英文",
+    "().md",
     "image-3.png",
     "image-2.png",
     "image-1.png",
@@ -231,10 +279,8 @@
     "cs/ai相关/ai相关.md",
     "知识点/Comparator.md",
     "MyOwnObsidian/MyOwnObsidian.md",
-    "未命名",
     "cs/ai相关",
     "知识点/拦截器.md",
-    "().md",
     "知识点",
     "欢迎.md",
     "创建链接.md",
