@@ -12,7 +12,11 @@
 
 # 2 语句
 
+进入表
 
+```mysql
+ALTER TABLE name;
+```
 加入列的语句
 ```mysql
 ALTER TABLE work_info add COLUMN description varchar(128);
@@ -23,3 +27,9 @@ ALTER TABLE work_info add COLUMN description varchar(128);
 ```mysql
 ALTER TABLE posts DROP COLUMN excerpt;
 ```
+设置时间戳 需要创建列的时候就注意
+```mysql
+ALTER TABLE `work_info` ADD COLUMN `created_at` datetime DEFAULT CURRENT_TIMESTAMP;
+```
+
+^f467e4
