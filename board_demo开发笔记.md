@@ -322,7 +322,7 @@ public void attachAdminToken(UserAccountDetailVO vo) {
 #### 7.3.2 校验
 需要 [[拦截器]] 先不写了
 并且还需要[[SpringSecurity]] 的相关知识
-此项目的过滤器已经
+此项目使用过滤器实现的
 
 ## 8 用户信息
 
@@ -349,6 +349,8 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 ### 9.1 自动生成时间戳
 
 > [!NOTE]
+> Mybatis-plus注解实现方法
+> 
 > 前提：需要数据类型为datetime
 > 
 > 方法：mybatis-plus自动填充字段
@@ -359,4 +361,4 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 
 上述方法很失败，并且对我的项目造成了伤害，我再也不会用了。我自己的ICommonResult类并不能处理date，并且mybatis-plus的updateById方法有问题，于是我决定在数据库中实现一下
 
-使用mysql语句 [[MySql#^f467e4]]
+使用mysql语句 [[MySql#^f467e4]] 一句话解决 省时省力 不过需要注意传参数不能传入 `created_`
