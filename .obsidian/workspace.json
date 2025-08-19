@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "board_demo开发笔记.md",
+                "file": "知识点/SpringSecurity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "board_demo开发笔记"
+              "title": "SpringSecurity"
             }
           },
           {
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0f718bda25a908a9",
@@ -199,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "board_demo开发笔记.md",
+                "file": "知识点/SpringSecurity.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "board_demo开发笔记 的大纲"
+              "title": "SpringSecurity 的大纲"
             }
           },
           {
@@ -233,7 +234,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,6 +253,7 @@
   },
   "active": "fe66e9901399932f",
   "lastOpenFiles": [
+    "board_demo开发笔记.md",
     "知识点/List排序.md",
     "知识点/SpringSecurity.md",
     "cs/ai相关/ai相关.md",
@@ -258,7 +261,6 @@
     "cs/git.md",
     "cs/Linux_Ubuntu.md",
     "cs/MySql.md",
-    "board_demo开发笔记.md",
     "未命名",
     "MyOwnObsidian/MyOwnObsidian.md",
     "TODO list.md",
