@@ -13,7 +13,13 @@
 # 2 语句
 
 
-这是个加入列的语句
+加入列的语句
 ```mysql
 ALTER TABLE work_info add COLUMN description varchar(128);
+```
+
+删除列的语句
+假设有一个名为_posts_的表，其中包含一个名为_excerpt_的列
+```mysql
+ALTER TABLE posts DROP COLUMN excerpt;
 ```
