@@ -34,4 +34,16 @@ public class DefaultSecurityConfig {
 }
 ```
 
-`@EnableWebSecurity` 注解 
+`@EnableWebSecurity` 注解：启用web安全性
+
+## 3 日志
+
+```
+$ ./mvnw spring-boot:run
+...
+INFO 23689 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration :
+
+Using generated security password: 8e557245-73e2-4286-969a-ff57fe326336
+
+...
+```
