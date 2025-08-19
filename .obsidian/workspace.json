@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyOwnObsidian/图片.md",
+                "file": "知识点/List排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "图片"
+              "title": "List排序"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#java",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyOwnObsidian/图片.md",
+                "file": "知识点/List排序.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "图片 的大纲"
+              "title": "List排序 的大纲"
             }
           },
           {
@@ -250,22 +250,22 @@
   },
   "active": "3a37436f0d230fe3",
   "lastOpenFiles": [
-    "MyOwnObsidian/代码块.md",
-    "知识点/Comparator.md",
-    "MyOwnObsidian/MyOwnObsidian.md",
-    "MyOwnObsidian/Dataview.md",
+    "知识点/SpringSecurity.md",
     "知识点/List排序.md",
+    "知识点/Comparator.md",
+    "TODO list.md",
+    "MyOwnObsidian/MyOwnObsidian.md",
+    "MyOwnObsidian/图片.md",
+    "MyOwnObsidian/代码块.md",
+    "MyOwnObsidian/Dataview.md",
     "cs/ai相关/prompt.md",
     "board_demo开发笔记.md",
     "cs/MySql.md",
-    "知识点/SpringSecurity.md",
     "cs/ai相关/ai相关.md",
     "2025-08-18.md",
     "cs/git.md",
     "cs/Linux_Ubuntu.md",
     "未命名",
-    "TODO list.md",
-    "MyOwnObsidian/图片.md",
     "cs/cs.md",
     "cs/ai相关",
     "知识点/拦截器.md",
