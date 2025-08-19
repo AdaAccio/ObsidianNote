@@ -44,6 +44,7 @@ public class DefaultSecurityConfig {
 
 `@EnableWebSecurity` 注解：启用web安全性
 
+这个更像REST API安全规则的的写法
 ```java
 @Configuration  
 @EnableWebSecurity  
