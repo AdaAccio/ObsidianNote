@@ -2,7 +2,7 @@
 
 [Spring中文文档](https://springdoc.cn/spring-security/)
 [SpringSecurity]([Spring Security](https://spring.io/projects/spring-security))
-
+[一个说的还算明白的教程](https://blog.csdn.net/qq_17231297/article/details/129173532)
 
 > [!NOTE] 简介
 > 安全框架，方便使用，高度定制化
@@ -89,3 +89,7 @@ Using generated security password: 8e557245-73e2-4286-969a-ff57fe326336
 
 ...
 ```
+
+## 4 原理
+
+SpringSecurity的原理其实就是一个[[过滤器链]]，内部包含了提供各种功能的过滤器。
