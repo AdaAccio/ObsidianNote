@@ -71,7 +71,16 @@
 
 `git merge` +分支名
 
-出现冲突？![image-20250513174135100](file:///C:/Users/15141/AppData/Roaming/Typora/typora-user-images/image-20250513174135100.png?lastModify=1755503548)手动改一下 再保存 再add
+出现冲突？![image-20250513174135100](file:///C:/Users/15141/AppData/Roaming/Typora/typora-user-images/image-20250513174135100.png?lastModify=1755503548)
+
+
+
+
+
+
+
+
+手动改一下 再保存 再add
 
 ### 0.2.2 标签
 

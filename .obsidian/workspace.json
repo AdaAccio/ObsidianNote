@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "board_demo开发笔记.md",
+                "file": "cs/ai相关/prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "board_demo开发笔记"
-            }
-          },
-          {
-            "id": "976c980784e81ee7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.10"
+              "title": "prompt"
             }
           },
           {
@@ -53,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识点/Comparator.md",
+                "file": "2025-08-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comparator"
+              "title": "2025-08-18"
             }
           },
           {
@@ -75,8 +63,7 @@
               "title": "Dataview"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,12 +235,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "976c980784e81ee7",
+  "active": "3a37436f0d230fe3",
   "lastOpenFiles": [
+    "2025-08-18.md",
     "MyOwnObsidian/Dataview.md",
+    "MyOwnObsidian/图片.md",
     "知识点/Comparator.md",
     "cs/ai相关/ai相关.md",
     "cs/ai相关/prompt.md",
+    "cs/git.md",
     "board_demo开发笔记.md",
     "cs/ai相关",
     "知识点/List排序.md",
@@ -263,14 +253,11 @@
     "cs/Linux_Ubuntu.md",
     "TODO list.md",
     "未命名",
-    "MyOwnObsidian/图片.md",
     "image-1.png",
     "image.png",
     "().md",
     "知识点",
-    "2025-08-18.md",
     "cs/cs.md",
-    "cs/git.md",
     "欢迎.md",
     "创建链接.md",
     "同人设定整理/白刻.md",
