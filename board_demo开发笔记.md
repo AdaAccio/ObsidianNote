@@ -301,7 +301,7 @@ signature：通过密钥将前两者加密得到最终的token
 这三部分中间使用 " . " 分隔开，并且都会使用Base64编码方式编码,如下
 eyJhbGc6IkpXVCJ9.eyJpc3MiOiJCIsImVzg5NTU0NDUiLCJuYW1lnVlfQ.SwyHTf8AqKYMAJc
 
-
+ 
 #### 8.3.1 保存
 
 ```java
