@@ -462,3 +462,16 @@ untimeExceptionWhen allowCredentials is true, allowedOrigins cannot contain the 
 又遇到问题，token不好使！
 
 先去控制台里面看
+
+![image.png|414x335](https://gitee.com/xin_accio/pic-go-images/raw/master/20250820152551495.png)
+
+`Authorization` 这里 头上有个Bearer
+
+这是咱们AI前端干的好事
+
+![image.png|458x269](https://gitee.com/xin_accio/pic-go-images/raw/master/20250820152740275.png)
+
+- 方法1：在前端去掉
+- 方法2：在后端去掉
+-后端去掉这么干：
+`TokenAuthenticationFilter` 中，可以看到这样的代码
