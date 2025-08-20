@@ -390,3 +390,14 @@ MPJLambdaWrapper<UserInfoTab> wrapper = new MPJLambdaWrapper<UserInfoTab>()
 删除账号
 
 需要有新增一张表，把发来申请的存起来
+
+## 11 前端
+
+AI速跑 遇到问题
+
+```
+has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
+
+上网查了发现是很常见的问题，[[跨域]]问题。
+
