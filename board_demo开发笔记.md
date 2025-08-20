@@ -474,4 +474,29 @@ untimeExceptionWhen allowCredentials is true, allowedOrigins cannot contain the 
 - 方法1：在前端去掉
 - 方法2：在后端去掉
 -后端去掉这么干：
-`TokenAuthenticationFilter` 中，可以看到这样的代码
+`TokenAuthenticationFilter` 中，可以看到这个
+
+```java
+IBaseUser<String> userDetails = redisTemplate.opsForValue().get(bearer);
+```
+
+调试的时候可以看一下这里get到的bearer内容
+
+我的出现了一个 Bearer XXXXX:xxxxx...... （后面是token）
+
+只要在这前面加上
+
+```java
+bearer = bearer.replace("Bearer ", "");
+```
+
+但是这样会出现问题，会出现类型转换失败的问题。
+
+只要让相应的登录使用的VO继承一个接口
+
+```java
+IBaseUser<String>
+```
+
+这是一个Redis相关的接口，需要在底下好好实现以下
+
