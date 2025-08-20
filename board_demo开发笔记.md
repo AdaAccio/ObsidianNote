@@ -401,3 +401,7 @@ has been blocked by CORS policy: Response to preflight request doesn't pass acce
 
 上网查了发现是很常见的问题，[[跨域]]问题。
 
+AI跑一遍，在前端代理服务器把这个问题解决之后，遇到了新问题
+
+![image.png|445x269](https://gitee.com/xin_accio/pic-go-images/raw/master/20250820104152315.png)
+
