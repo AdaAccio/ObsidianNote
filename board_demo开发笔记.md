@@ -405,3 +405,56 @@ AI跑一遍，在前端代理服务器把这个问题解决之后，遇到了新
 
 ![image.png|445x269](https://gitee.com/xin_accio/pic-go-images/raw/master/20250820104152315.png)
 
+其实是地址写错了 给它配到8888之后又连不上了，并且在 `SpringSecurityConfig` 中没有放行
+
+所以在后端新加了配置，放行cors
+
+```java
+@Configuration
+
+public class CorsConfig implements WebMvcConfigurer {
+
+@Override
+
+public void addCorsMappings(CorsRegistry registry) {
+
+registry.addMapping("/**")
+
+.allowedOrigins("*")
+
+.allowedMethods("GET", "POST", "PUT", "DELETE")
+
+.allowedHeaders("*")
+
+.allowCredentials(true)
+
+.maxAge(3600);
+
+}
+
+}
+```
+
+还是不行
+
+接口返回错误是
+
+```
+untimeExceptionWhen allowCredentials is true, allowedOrigins cannot contain the special value \"*\" since that cannot be set on the \"Access-Control-Allow-Origin\" response header. To allow credentials to a set of origins, list them explicitly or consider using \"allowedOriginPatterns\" instead.
+```
+
+是这句话的问题
+
+```java
+.allowedOrigins("*")
+```
+
+原配置为corsConfiguration.addAllowedOrigin ("*")，需改为corsConfiguration.addAllowedOriginPattern ("*")。 这表明SpringBoot 2.4+更改了对AllowedOrigin的处理方式，不允许使用通配符。
+
+但是 `addAllowedOriginPattern ("*")` 没有 遂用的 
+
+```java
+.allowedOriginPatterns("*")
+```
+
+然后解决了
