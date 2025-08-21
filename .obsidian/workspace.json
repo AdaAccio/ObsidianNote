@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "board_demo开发笔记.md",
+                "file": "cs/MySql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "board_demo开发笔记"
+              "title": "MySql"
             }
           },
           {
@@ -209,9 +209,9 @@
   },
   "active": "1fcd086c197b6cc3",
   "lastOpenFiles": [
+    "board_demo开发笔记.md",
     "image-1.png",
     "image.png",
-    "board_demo开发笔记.md",
     "知识点/跨域.md",
     "cs/ai相关/prompt.md",
     "cs/MySql.md",
