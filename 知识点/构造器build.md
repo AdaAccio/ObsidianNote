@@ -1,8 +1,10 @@
 
 #java #lombok
 
+
+
 ```java
-Task task = new Task.TaskBuilder(99, "紧急任务") 
+Task task = new Task.builder().
 	.type(1) 
 	.content("处理一下这个任务") 
 	.status(0) 
