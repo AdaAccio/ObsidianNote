@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const path = '/D:/Notes/Obsidian/AdaAccio/everyday_conclusion.js';
+const path = '/D:/Notes/Obsidian/AdaAccio/everyday_concludsion.js';
 
 // 获取当前日期字符串
 const today = new Date();
