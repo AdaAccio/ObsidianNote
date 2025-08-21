@@ -501,3 +501,5 @@ IBaseUser<String>
 这是一个Redis相关的接口，需要在底下好好实现一下
 
 这东西又不行了，改了一下SpringSecurityConfig 在里面配置一下cors的东西就好了
+
+是因为和上面那个新配置的
