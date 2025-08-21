@@ -1,3 +1,4 @@
+#obsidian 
 ```
 Table file.mtime as "最后修改日期"
 Where date(2025-08-21T00:00:00) - file.mtime <= dur(1 day)
