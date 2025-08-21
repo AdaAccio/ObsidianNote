@@ -25,28 +25,10 @@
             "id": "c0196f510c573d5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MyOwnObsidian/Dataview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dataview"
-            }
-          },
-          {
-            "id": "a24579f47552fe53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MyOwnObsidian/Main.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Main"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           },
           {
@@ -64,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MyOwnObsidian/Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Main 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -156,12 +137,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MyOwnObsidian/Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Main 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -185,13 +165,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyOwnObsidian/Main.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Main 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -236,12 +215,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a24579f47552fe53",
+  "active": "c0196f510c573d5e",
   "lastOpenFiles": [
-    "MyOwnObsidian/图片.md",
-    "MyOwnObsidian/Dataview.md",
-    "MyOwnObsidian/Dataview实现每日总结.md",
     "MyOwnObsidian/Main.md",
+    "创建链接.md",
+    "2025-08-18.md",
+    "MyOwnObsidian/Dataview.md",
+    "未命名.base",
+    "英文/de-facto.md",
+    "英文/session fixation attack.md",
+    "MyOwnObsidian/图片.md",
+    "MyOwnObsidian/Dataview实现每日总结.md",
     "board_demo开发笔记.md",
     "TODO list.md",
     "MyOwnObsidian/代码块.md",
@@ -260,7 +244,6 @@
     "未命名 3.base",
     "未命名 2.base",
     "未命名 1.base",
-    "未命名.base",
     "知识点/过滤器.md",
     "知识点/过滤器链.md",
     "知识点/会话固定攻击.md",
@@ -268,13 +251,9 @@
     "知识点/Comparator.md",
     "知识点/List排序.md",
     "知识点/cookie session token.md",
-    "英文/session fixation attack.md",
-    "英文/de-facto.md",
-    "cs/ai相关/ai相关.md",
     "英文",
     "image-3.png",
     "image-2.png",
-    "2025-08-18.md",
     "cs/ai相关",
     "知识点",
     "cs",
