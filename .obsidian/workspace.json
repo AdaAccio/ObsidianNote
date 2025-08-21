@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识点/构造器build.md",
+                "file": "board_demo开发笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "构造器build 的反向链接列表"
+              "title": "board_demo开发笔记 的反向链接列表"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识点/构造器build.md",
+                "file": "board_demo开发笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "构造器build 的出链列表"
+              "title": "board_demo开发笔记 的出链列表"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识点/构造器build.md",
+                "file": "board_demo开发笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "构造器build 的大纲"
+              "title": "board_demo开发笔记 的大纲"
             }
           },
           {
@@ -236,10 +236,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3d30b3eb39c253e0",
+  "active": "8b01fc0bf33912ad",
   "lastOpenFiles": [
-    "board_demo开发笔记.md",
     "知识点/构造器build.md",
+    "board_demo开发笔记.md",
     "cs/git.md",
     "cs/Linux_Ubuntu.md",
     "cs/MySql.md",
