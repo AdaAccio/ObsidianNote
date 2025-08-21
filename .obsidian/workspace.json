@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO list.md",
+                "file": "MyOwnObsidian/MyOwnObsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO list"
+              "title": "MyOwnObsidian"
             }
           },
           {
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO list.md",
+                "file": "MyOwnObsidian/MyOwnObsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "TODO list 的反向链接列表"
+              "title": "MyOwnObsidian 的反向链接列表"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO list.md",
+                "file": "MyOwnObsidian/MyOwnObsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "TODO list 的出链列表"
+              "title": "MyOwnObsidian 的出链列表"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO list.md",
+                "file": "MyOwnObsidian/MyOwnObsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "TODO list 的大纲"
+              "title": "MyOwnObsidian 的大纲"
             }
           },
           {
@@ -238,12 +238,13 @@
   },
   "active": "a24579f47552fe53",
   "lastOpenFiles": [
-    "MyOwnObsidian/Dataview实现每日总结.md",
-    "MyOwnObsidian/Dataview.md",
-    "TODO list.md",
-    "MyOwnObsidian/MyOwnObsidian.md",
-    "MyOwnObsidian/代码块.md",
     "MyOwnObsidian/图片.md",
+    "MyOwnObsidian/Dataview.md",
+    "MyOwnObsidian/Dataview实现每日总结.md",
+    "MyOwnObsidian/MyOwnObsidian.md",
+    "board_demo开发笔记.md",
+    "TODO list.md",
+    "MyOwnObsidian/代码块.md",
     "每日总结.md",
     "everyday_concludsion.js.md",
     "everyday_concludsion.js",
@@ -251,7 +252,6 @@
     "MyOwnObsidian/未命名.md",
     "知识点/跨域.md",
     "image-1.png",
-    "board_demo开发笔记.md",
     "cs/MySql.md",
     "image.png",
     "cs/ai相关/prompt.md",

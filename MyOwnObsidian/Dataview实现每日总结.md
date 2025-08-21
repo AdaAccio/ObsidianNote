@@ -8,5 +8,4 @@ Sort file.mtime desc
 
 自动化的脚本不会搞 应该使用js的 但是不知道写obsidian脚本能干啥 作罢
 
-- [ ] 学写obsidian脚本
 
