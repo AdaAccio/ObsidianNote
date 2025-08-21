@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识点/跨域.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "跨域 的反向链接列表"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识点/跨域.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "跨域 的出链列表"
+              "title": "未命名 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识点/跨域.md",
+                "file": "未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "跨域 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -222,11 +222,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b01fc0bf33912ad",
+  "active": "c0196f510c573d5e",
   "lastOpenFiles": [
-    "未命名.md",
     "TODO list.md",
     "知识点/跨域.md",
+    "未命名.md",
     "image-1.png",
     "board_demo开发笔记.md",
     "cs/MySql.md",
