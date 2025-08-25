@@ -520,4 +520,6 @@ IBaseUser<String>
 
 换端口：上次有用，这次没有用
 
-我重启电脑试试
+我重启电脑试试,没用
+![image.png|482x479](https://gitee.com/xin_accio/pic-go-images/raw/master/20250825103930196.png)
+我发现我这个根本没打开,然后我就把这个都打开了,也不行
