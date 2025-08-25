@@ -523,3 +523,5 @@ IBaseUser<String>
 我重启电脑试试,没用
 ![image.png|482x479](https://gitee.com/xin_accio/pic-go-images/raw/master/20250825103930196.png)
 我发现我这个根本没打开,然后我就把这个都打开了,也不行
+
+折腾了半天,把一个叫 `setUpProxy` 的文件删了重启就好了....AI干了
