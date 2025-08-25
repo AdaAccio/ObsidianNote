@@ -513,3 +513,7 @@ IBaseUser<String>
 - [ ] 限制字数
 
 [[构造器build]] 又忘了
+
+**打不开怎么办**
+
+![image.png|315x289](https://gitee.com/xin_accio/pic-go-images/raw/master/20250825100654287.png)
