@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/ai相关/few-shot.md",
+                "file": "TODO list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "few-shot"
+              "title": "TODO list"
             }
           }
         ],
@@ -210,15 +210,15 @@
   },
   "active": "a634bf5072f7ece0",
   "lastOpenFiles": [
-    "cs/ai相关/prompt.md",
-    "cs/ai相关/few-shot.md",
-    "cs/ai相关/ai相关.md",
     "cs/数据库/Mysql/MySql.md",
+    "cs/数据库/Mysql/分页查找.md",
+    "cs/ai相关/few-shot.md",
+    "cs/ai相关/prompt.md",
+    "cs/ai相关/ai相关.md",
     "cs/数据库/Mybatis-plus/分页查找.md",
     "cs/数据库/Mybatis-plus/连接查找.md",
     "cs/数据库/Mybatis-plus/Mybatis-plus.md",
     "cs/数据库/Mysql/连接查找.md",
-    "cs/数据库/Mysql/分页查找.md",
     "未命名.md",
     "cs/数据库/Mysql",
     "cs/数据库",
