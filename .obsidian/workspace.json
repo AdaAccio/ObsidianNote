@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "cs/SpringSecurity/SpringSecurity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SpringSecurity"
+            }
+          },
+          {
+            "id": "3c1b7006730d7f16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "board_demo开发笔记.md",
                 "mode": "source",
                 "source": false
@@ -35,7 +49,8 @@
               "title": "TODO list"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,8 +222,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "42c8c7feeed899c2",
+  "active": "3c1b7006730d7f16",
   "lastOpenFiles": [
+    "cs/SpringSecurity/Role.md",
+    "image.png",
+    "cs/SpringSecurity/SpringSecurity.md",
+    "cs/SpringSecurity",
+    "board_demo开发笔记.md",
     "MyOwnObsidian/Dataview实现每日总结.md",
     "创建链接.md",
     "传头像.md",
@@ -234,19 +254,13 @@
     "知识点/Bucket.md",
     "知识点/跨域.md",
     "知识点/过滤器链.md",
-    "知识点/会话固定攻击.md",
-    "知识点/SpringSecurity.md",
-    "知识点/OSS.md",
     "image-1.png",
-    "image.png",
     "未命名 2.base",
     "未命名 1.base",
     "未命名.base",
-    "board_demo开发笔记.md",
     "同人",
     "everyday_concludsion.js",
     "未命名 3.base",
-    "英文",
     "image-3.png",
     "image-2.png",
     "未命名.canvas",

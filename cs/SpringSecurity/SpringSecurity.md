@@ -94,3 +94,8 @@ Using generated security password: 8e557245-73e2-4286-969a-ff57fe326336
 ## 4 原理
 
 SpringSecurity的原理其实就是一个[[过滤器链]]，内部包含了提供各种功能的过滤器。
+
+
+## 5 角色
+
+[[Role]]
