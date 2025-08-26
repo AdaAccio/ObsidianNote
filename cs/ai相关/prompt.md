@@ -98,3 +98,5 @@ Prompt userPrompt = new Prompt(String.join(" ", userMessage),this.openAiChatOpti
 格式那堆东西叫做 `JSONSchema` ，可以用在线工具生成，不过要注意使用 `Draft-7` 
 
 如果要存入一个对应的类中，则加上 `.entity(xxx.class)` ,不用的话就加上 `.context()` 
+
+这段代码的prompt还用到了 [[few-shot]]
