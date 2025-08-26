@@ -35,8 +35,7 @@
               "title": "TODO list"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,8 +207,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a634bf5072f7ece0",
+  "active": "42c8c7feeed899c2",
   "lastOpenFiles": [
+    "TODO list.md",
     "cs/数据库/Mysql/MySql.md",
     "cs/数据库/Mysql/分页查找.md",
     "cs/ai相关/few-shot.md",
@@ -240,7 +240,6 @@
     "未命名 1.base",
     "未命名.base",
     "board_demo开发笔记.md",
-    "TODO list.md",
     "传头像.md",
     "[国内自建图床指南.md",
     "每日总结.md",
