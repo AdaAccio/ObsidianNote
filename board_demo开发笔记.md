@@ -528,3 +528,9 @@ IBaseUser<String>
 
 ## 12 会员权限
 
+role
+
+'ADMIN'
+'MEMBER'
+'USER'
+
