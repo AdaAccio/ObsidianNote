@@ -582,6 +582,8 @@ The key's randomart image is:
 允许root登录
 允许证书登录
 
+需要改端口 在ssh配置文件里面找/Port 用一个两万多的端口，再把SECURECRT的端口改了，再到阿里云控制台改掉端口
+
 安装Java环境
 openjdk-17-jdk
 openjdk-17-jre
