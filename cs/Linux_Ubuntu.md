@@ -4,4 +4,11 @@
 
 `apt install xxx` 下载常用
 
-`sz 文件路径` 下载到主机中
+`sz 文件路径` 下载到主机中 这个是给secureCRT用的
+
+## 1 用户
+
+创建一个用户 就可以在这里面下载文件了！
+
+![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250827180538609.png)
+![[image.png]]
