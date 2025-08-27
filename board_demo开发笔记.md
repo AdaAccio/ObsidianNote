@@ -610,6 +610,9 @@ server {
 
 
 安装docker
+
+
+
 docker安装数据库
 
 拉取java代码
