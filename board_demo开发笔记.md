@@ -550,8 +550,10 @@ role
 ![image.png|654x316](https://gitee.com/xin_accio/pic-go-images/raw/master/20250827160406701.png)
 
 
+直接linux连上，用户名root，密码输入这里设置的
 
-安装工具
+### 13.1 安装工具
+ 
 net-tools
 wget
 zip
@@ -562,31 +564,22 @@ lrzsz
 ssh
 
 
-配置ssh
+### 13.2 配置ssh
+用账号密码不安全
 [设置 SSH 通过密钥登录 | 菜鸟教程](https://www.runoob.com/w3cnote/set-ssh-login-key.html)
 
-```
-SHA256:FYRilx9GKwE9jqqtgGNBORig+rceg5aTHxoWZY2ZdMY root@iZ2ze3cfnfqf8glte68cvoZ
-The key's randomart image is:
-+--[ED25519 256]--+
-|+   ..+o.=+      |
-|o... BE *.oo     |
-|o+  *..=.+o.     |
-|o .o  . .o.      |
-|...  .  S        |
-|...=.            |
-|+.Xo=            |
-|.=.*.=           |
-|  oo+            |
-+----[SHA256]-----+
-```
+`sz 路径名` 把公钥、私钥都下载下来，之后就可以再secureCRT中设置使用私钥连接
+
+![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250827161116822.png)
+
+
 创建用户证书
 调整ssh端口（aliyun放行端口）
 禁用密码登录
 允许root登录
 允许证书登录
 
-需要改端口 在ssh配置文件里面找/Port 用一个两万多的端口，再把SECURECRT的端口改了，再到阿里云控制台改掉端口
+需要改端口 在ssh配置文件里面找/Port 用一个两万多的端口，再把SECURECRT的端口改了，再到阿里云控制台改掉端口。重启之前需要关掉SElinux 要不然就登不上去了
 
 安装Java环境
 openjdk-17-jdk

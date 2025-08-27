@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/SpringSecurity/SpringSecurity.md",
+                "file": "cs/Linux_Ubuntu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SpringSecurity"
+              "title": "Linux_Ubuntu"
             }
           },
           {
@@ -224,12 +224,13 @@
   },
   "active": "3c1b7006730d7f16",
   "lastOpenFiles": [
+    "image-3.png",
+    "TODO list.md",
+    "cs/Linux_Ubuntu.md",
+    "board_demo开发笔记.md",
+    "cs/SpringSecurity/SpringSecurity.md",
     "image-2.png",
     "image-1.png",
-    "cs/Linux_Ubuntu.md",
-    "cs/SpringSecurity/SpringSecurity.md",
-    "board_demo开发笔记.md",
-    "TODO list.md",
     "cs/SpringSecurity/Role.md",
     "image.png",
     "cs/SpringSecurity",
@@ -262,7 +263,6 @@
     "同人",
     "everyday_concludsion.js",
     "未命名 3.base",
-    "image-3.png",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
