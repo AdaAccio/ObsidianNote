@@ -560,6 +560,22 @@ ssh
 
 配置ssh
 [设置 SSH 通过密钥登录 | 菜鸟教程](https://www.runoob.com/w3cnote/set-ssh-login-key.html)
+
+```
+SHA256:FYRilx9GKwE9jqqtgGNBORig+rceg5aTHxoWZY2ZdMY root@iZ2ze3cfnfqf8glte68cvoZ
+The key's randomart image is:
++--[ED25519 256]--+
+|+   ..+o.=+      |
+|o... BE *.oo     |
+|o+  *..=.+o.     |
+|o .o  . .o.      |
+|...  .  S        |
+|...=.            |
+|+.Xo=            |
+|.=.*.=           |
+|  oo+            |
++----[SHA256]-----+
+```
 创建用户证书
 调整ssh端口（aliyun放行端口）
 禁用密码登录
