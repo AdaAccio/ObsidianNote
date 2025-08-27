@@ -592,6 +592,7 @@ openjdk-17-jre
 安装nginx
 配置域名
 
+
 安装docker
 docker安装数据库
 
