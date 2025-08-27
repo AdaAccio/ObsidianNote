@@ -545,7 +545,11 @@ role
 
 学生优惠不错嘻嘻嘻
 
-云主机选ubuntu系统
+云主机选ubuntu系统，拿下、
+
+![image.png|654x316](https://gitee.com/xin_accio/pic-go-images/raw/master/20250827160406701.png)
+
+
 
 安装工具
 net-tools
