@@ -581,3 +581,5 @@ build并运行
 
 拉取web代码
 build并复制到nginx目录
+
+要连接到我的secureCRT中 密码要记住
