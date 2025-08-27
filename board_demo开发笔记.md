@@ -572,6 +572,8 @@ ssh
 
 ![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250827161116822.png)
 
+![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250827161337722.png)
+
 
 创建用户证书
 调整ssh端口（aliyun放行端口）
@@ -581,13 +583,30 @@ ssh
 
 需要改端口 在ssh配置文件里面找/Port 用一个两万多的端口，再把SECURECRT的端口改了，再到阿里云控制台改掉端口。重启之前需要关掉SElinux 要不然就登不上去了
 
+当然了我这个用这个方法崩溃了，导致我重置了一下服务器才好使
+
 安装Java环境
 openjdk-17-jdk
 openjdk-17-jre
 安装maven，配置setting
+setting的配置方法学的是这个，配置文件路径不太一样，我的在 `/etc` 中
+[[maven] Ubuntu 安装配置 maven - 伶俐虫虫 - 博客园](https://www.cnblogs.com/xiao-xiaoyang/p/17176185.html)
+
 
 安装nginx
 配置域名
+在 `/conf.d` 路径下放一个 `board.conf`
+
+```
+server {
+    listen 80;
+    server_name blog.gamfun.com;
+    #access_log logs/board.log; #这俩没有路径，不注释掉会报错
+    #error_log logs/board.error;
+
+}
+ 
+```
 
 
 安装docker
