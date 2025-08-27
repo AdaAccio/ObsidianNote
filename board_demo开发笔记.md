@@ -541,3 +541,43 @@ role
 
 ## 13 部署
 
+首先！购入一个服务器！
+
+学生优惠不错嘻嘻嘻
+
+云主机选ubuntu系统
+
+安装工具
+net-tools
+wget
+zip
+unzip
+npm
+socat
+lrzsz
+ssh
+
+
+配置ssh
+创建用户证书
+调整ssh端口（aliyun放行端口）
+禁用密码登录
+允许root登录
+允许证书登录
+
+安装Java环境
+openjdk-17-jdk
+openjdk-17-jre
+安装maven，配置setting
+
+安装nginx
+配置域名
+
+安装docker
+docker安装数据库
+
+拉取java代码
+build并运行
+
+拉取web代码
+build并复制到nginx目录
