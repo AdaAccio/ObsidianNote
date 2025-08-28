@@ -42,5 +42,16 @@ sudo systemctl restart docker
 
 ```
 
-## 3 vim
+## 3 路径操作
+
+返回上一级
+
+```
+cd ..
+```
+
+
+
+
+
 
