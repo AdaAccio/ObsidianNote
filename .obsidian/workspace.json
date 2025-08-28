@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/Linux_Ubuntu.md",
+                "file": "board_demo开发笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux_Ubuntu"
+              "title": "board_demo开发笔记"
             }
           }
         ]
@@ -195,8 +195,8 @@
   },
   "active": "3c1b7006730d7f16",
   "lastOpenFiles": [
-    "board_demo开发笔记.md",
     "cs/Linux_Ubuntu.md",
+    "board_demo开发笔记.md",
     "image.png",
     "TODO list.md",
     "cs/cs.md",

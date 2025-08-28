@@ -23,7 +23,10 @@ exit
 ```
 
 
-## 2 配置docker镜像加速
+
+## 2 docker
+
+### 2.1 配置docker镜像加速
 
 打开 daemon.json 文件
 
