@@ -18,3 +18,7 @@
 ### 1.1 配置镜像加速
 
 打开 daemon.json 文件
+
+```
+vim /etc/docker/daemon.json
+```
