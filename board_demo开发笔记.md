@@ -611,6 +611,8 @@ server {
 
 
 docker安装数据库
+把本机上的迁移过去
+
 
 拉取java代码
 build并运行
