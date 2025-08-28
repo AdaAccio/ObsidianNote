@@ -12,6 +12,18 @@
 
 # 2 语句
 
+进入数据库
+
+``` mysql
+use xxxx;
+```
+
+查看所有表
+
+```
+
+```
+
 进入表
 
 ```mysql
@@ -36,5 +48,6 @@ ALTER TABLE `work_info` ADD COLUMN `created_at` datetime DEFAULT CURRENT_TIMESTA
 ^9c9e0a
 
 ^f467e4
-## 1 分页查找
+
+
 

@@ -613,7 +613,7 @@ server {
 docker安装数据库
 需要把本机上的迁移过去，[[Linux_Ubuntu#2.1.1 读取数据库文件]]
 好狼狈的方法，怎么能如此狼狈
-
+而且我本地的mysql workbench连不上这个数据库
 
 
 拉取java代码
