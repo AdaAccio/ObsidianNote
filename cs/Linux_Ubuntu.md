@@ -62,6 +62,18 @@ sudo systemctl restart docker
 
 真的太狼狈了 但我连不上 于是使用rz大法
 
+```shell
+docker cp yyy.sql mysql:/yyy.sql
+
+# 2. 创建数据库
+docker exec -it mysql mysql -h 192.168.6.88 -uroot -p12345 
+mysql> create database yyy;
+mysql> use yyy;
+
+# 3.登陆控制台执行source 命令
+mysql> source yyy.sql
+
+```
 
 
 ### 2.2 迁移数据库
