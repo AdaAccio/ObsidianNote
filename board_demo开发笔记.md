@@ -560,6 +560,9 @@ socat
 lrzsz
 ssh
 
+maven
+
+maven配置
 
 ### 13.2 配置ssh
 用账号密码不安全
