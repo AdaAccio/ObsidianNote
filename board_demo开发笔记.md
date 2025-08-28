@@ -624,6 +624,11 @@ docker安装数据库
 拉取java代码
 build并运行
 
+> redis连不上怎么办！
+> 公网ip要么放防火墙任由黑客拷打，要么用私有ip
+
+
+
 拉取web代码
 build并复制到nginx目录
 
