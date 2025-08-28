@@ -14,3 +14,7 @@
 
 进镜像的目录 先执行 `. ./99` tabel 的命令
 然后选 然后docker-compose up -d
+
+### 1.1 配置镜像加速
+
+打开 daemon.json 文件
