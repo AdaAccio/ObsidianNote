@@ -35,8 +35,7 @@
               "title": "SCP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,10 +207,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "72833ef109d97ae2",
+  "active": "3c1b7006730d7f16",
   "lastOpenFiles": [
-    "cs/Linux_Ubuntu.md",
     "知识点/SCP.md",
+    "cs/Linux_Ubuntu.md",
     "board_demo开发笔记.md",
     "cs/数据库/Mysql/MySql.md",
     "cs/git.md",
