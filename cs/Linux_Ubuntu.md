@@ -137,6 +137,12 @@ rm -r 文件夹名 #递归删除文件夹中所有文件
 在项目根目录下 
 
 ```shell
+mvn clean compile
+```
 
+成功后，使用maven的spring-boot插件
+
+```
+mvn spring-boot:run
 ```
 

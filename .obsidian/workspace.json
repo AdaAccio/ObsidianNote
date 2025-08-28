@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,12 +222,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3d5fefd2e35350b7",
+  "active": "746670c1a90b6374",
   "lastOpenFiles": [
+    "board_demo开发笔记.md",
     "cs/Linux_Ubuntu.md",
     "cs/数据库/Mysql/MySql.md",
     "知识点/SCP.md",
-    "board_demo开发笔记.md",
     "cs/git.md",
     "知识点/OSS.md",
     "知识点/List排序.md",
