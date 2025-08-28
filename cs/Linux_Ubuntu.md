@@ -46,7 +46,7 @@ sudo systemctl restart docker
 
 返回上一级
 
-```
+```shell
 cd ..
 ```
 
@@ -57,11 +57,18 @@ cd /home #举例
 ```
 
 到目录下的其他文件夹
-距离：home下有zi'wen'jia
+距离：home下有子文件夹app
 
 ```
-cd 
+cd app
 ```
+
+展示该目录下的内容
+
+```
+ll
+```
+
 
 
 
