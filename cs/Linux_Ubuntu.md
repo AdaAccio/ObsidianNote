@@ -11,4 +11,6 @@
 创建一个用户 就可以在这里面下载文件了！
 
 ![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250827180538609.png)
-![[image.png]]
+
+进镜像的目录 先执行 `. ./99` tabel 的命令
+然后选 然后docker-compose up -d
