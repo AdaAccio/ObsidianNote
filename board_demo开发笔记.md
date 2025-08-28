@@ -159,7 +159,7 @@ public class SggCodeGenertor {
   每个Mapper接口上需要添加`@Mapper`注解，Mapper接口才会被扫描到然后创建对象放到IoC容器中
 
   ```java
-  @M
+  @Mapper
   public interface UserAccountMapper extends BaseMapper<UserAccountTab> {
   }
   ```
@@ -200,7 +200,6 @@ tab不能用resource注入 它不是bean
 
 **ApiFox相关** 环境变量填程序的端口
 
-我的IP是 192.168.2.188
 
 > 报错：
 >
@@ -334,7 +333,7 @@ public void attachAdminToken(UserAccountDetailVO vo) {
         ...
         "/work/api-work-info-user",  
         "/work/api-work-info-search",  
-        "/v3/api-docs"  
+        "/v3/api-docs"  //这句必须
 ).permitAll()  
 .anyRequest().authenticated()
 ```
