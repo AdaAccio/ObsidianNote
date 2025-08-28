@@ -50,6 +50,19 @@ sudo systemctl restart docker
 cd ..
 ```
 
+到根目录下的文件夹
+
+```
+cd /home #举例
+```
+
+到目录下的其他文件夹
+距离：home下有zi'wen'jia
+
+```
+cd 
+```
+
 
 
 
