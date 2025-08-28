@@ -155,4 +155,5 @@ mvn -f ../pom.xml clean package -pl ${MODULE}-application -am -Dmaven.test.skip=
 
 {MODULE}里面填写的是主模块名
 
-运行
+进模块中找到jar包，运行
+
