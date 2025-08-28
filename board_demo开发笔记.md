@@ -641,7 +641,9 @@ build并复制到nginx目录
 
 还不行 炸了三次 于是
 
+![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250828174328238.png)
 
 
 
 要连接到我的secureCRT中 密码要记住
+
