@@ -15,7 +15,7 @@
 进镜像的目录 先执行 `. ./99` tabel 的命令
 然后选 然后docker-compose up -d
 
-### 1.1 配置镜像加速
+## 1.1 配置镜像加速
 
 打开 daemon.json 文件
 
@@ -31,3 +31,13 @@ vim /etc/docker/daemon.json
 ```
 
 这里的链接可以换成任何要用的
+
+重新加载配置信息及重启 Docker 服务
+
+```
+# 重新加载某个服务的配置文件
+sudo systemctl daemon-reload
+# 重新启动 docker
+sudo systemctl restart docker
+
+```
