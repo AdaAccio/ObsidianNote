@@ -22,3 +22,12 @@
 ```
 vim /etc/docker/daemon.json
 ```
+
+输入以下内容并保存
+
+```{
+  "registry-mirrors": ["http://hub-mirror.c.163.com",  "https://docker.mirrors.ustc.edu.cn"]
+}
+```
+
+这里的链接可以换成任何要用的
