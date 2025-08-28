@@ -610,7 +610,7 @@ server {
 
 
 安装docker
-[[l]]
+[[Linux_Ubuntu#2 配置docker镜像加速]]
 
 
 docker安装数据库
