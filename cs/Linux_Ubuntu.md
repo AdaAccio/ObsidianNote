@@ -58,7 +58,12 @@ sudo systemctl restart docker
 
 ### 2.2 迁移数据库
 
+[Docker迁移Mysql到另一台服务器上 - Rzk - 博客园](https://www.cnblogs.com/rzkwz/p/16193144.html)
 
+[[1181]linux两台服务器之间传输文件和文件夹-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2336817)
+
+
+具体流程是，将容器存为镜像，然后打包下载，再上传过去
 ## 3 路径操作
 
 返回上一级
