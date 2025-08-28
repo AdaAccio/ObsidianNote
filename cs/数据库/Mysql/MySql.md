@@ -33,6 +33,8 @@ ALTER TABLE posts DROP COLUMN excerpt;
 ALTER TABLE `work_info` ADD COLUMN `created_at` datetime DEFAULT CURRENT_TIMESTAMP;
 ```
 
+^9c9e0a
+
 ^f467e4
 ## 1 分页查找
 
