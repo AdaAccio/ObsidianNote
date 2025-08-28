@@ -146,3 +146,13 @@ mvn clean compile
 mvn spring-boot:run
 ```
 
+↑这个不能用
+用这个
+
+```shell
+mvn -f ../pom.xml clean package -pl ${MODULE}-application -am -Dmaven.test.skip=true
+```
+
+{MODULE}里面填写的是主模块名
+
+运行
