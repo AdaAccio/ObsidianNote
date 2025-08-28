@@ -20,8 +20,8 @@ use xxxx;
 
 查看所有表
 
-```
-
+```mysql
+show full tables;
 ```
 
 进入表
