@@ -157,3 +157,6 @@ mvn -f ../pom.xml clean package -pl ${MODULE}-application -am -Dmaven.test.skip=
 
 进模块中找到jar包，运行
 
+```shell
+
+```
