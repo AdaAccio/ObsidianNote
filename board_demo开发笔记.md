@@ -635,4 +635,7 @@ build并运行
 拉取web代码
 build并复制到nginx目录
 
+[Nginx反向代理详解（附带完整配置实例） - C语言中文网](https://c.biancheng.net/linux/p00hu4d.html)
+
+
 要连接到我的secureCRT中 密码要记住
