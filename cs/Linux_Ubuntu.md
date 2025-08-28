@@ -12,8 +12,7 @@
 
 ![image.png](https://gitee.com/xin_accio/pic-go-images/raw/master/20250827180538609.png)
 
-进镜像的目录 先执行 `. ./99` tabel 的命令
-然后选 然后docker-compose up -d
+
 
 app的密码是123
 
@@ -51,6 +50,8 @@ sudo systemctl restart docker
 
 ```
 
+进镜像的目录 先执行 `. ./99` tabel 的命令，连接网络
+然后选要下载的镜像，cd进去 然后docker-compose up -d
 ## 3 路径操作
 
 返回上一级
