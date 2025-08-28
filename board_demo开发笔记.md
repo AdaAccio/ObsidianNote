@@ -601,7 +601,7 @@ setting的配置方法学的是这个，配置文件路径不太一样，我的�
 server {
     listen 80;
     server_name blog.gamfun.com;
-    #access_log logs/board.log; #这俩没有路径，不注释掉会报错
+    #access_log logs/board.log; #这俩没有路径，不注释掉会报错,也没啥用，应该就是日志
     #error_log logs/board.error;
 
 }
@@ -610,7 +610,7 @@ server {
 
 
 安装docker
-[[Linux_Ubuntu#2 配置docker镜像加速]]
+[[Linux_Ubuntu#2.1 配置docker镜像加速]]
 
 
 docker安装数据库
