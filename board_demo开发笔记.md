@@ -637,5 +637,8 @@ build并复制到nginx目录
 
 [Nginx反向代理详解（附带完整配置实例） - C语言中文网](https://c.biancheng.net/linux/p00hu4d.html)
 
+我一个 `npm run build` 把我服务器爆了，遂 [ubuntu修改虚拟内存（swap空间）_ununtu 修改虚拟内存-CSDN博客](https://blog.csdn.net/hufeng882412/article/details/7930491)
+
+
 
 要连接到我的secureCRT中 密码要记住
