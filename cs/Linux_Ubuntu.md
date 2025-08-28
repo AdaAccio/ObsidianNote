@@ -58,6 +58,12 @@ sudo systemctl restart docker
 进镜像的目录 先执行 `. ./99` tabel 的命令，连接网络
 然后选要下载的镜像，cd进去 然后docker-compose up -d
 
+#### 2.1.1 读取数据库文件
+
+
+
+
+
 ### 2.2 迁移数据库
 
 [Docker迁移Mysql到另一台服务器上 - Rzk - 博客园](https://www.cnblogs.com/rzkwz/p/16193144.html)
