@@ -15,7 +15,12 @@
 进镜像的目录 先执行 `. ./99` tabel 的命令
 然后选 然后docker-compose up -d
 
-## 2 配置镜像加速
+退出某个用户
+
+```
+```
+
+## 2 配置docker镜像加速
 
 打开 daemon.json 文件
 
