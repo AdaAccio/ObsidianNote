@@ -562,7 +562,9 @@ ssh
 
 maven
 
-maven配置
+maven配置 在  `/etc/maven` 的 `settings.xml` 中
+
+需要参考我的settings
 
 ### 13.2 配置ssh
 用账号密码不安全
