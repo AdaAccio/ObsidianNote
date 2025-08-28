@@ -641,7 +641,7 @@ build并复制到nginx目录
 
 还不行 炸了三次 
 
-![](https://gitee.com/xin_accio/pic-go-images/raw/master/20250828174328238.png)
+![|700x377](https://gitee.com/xin_accio/pic-go-images/raw/master/20250828174328238.png)
 
 需要用nginx
 
