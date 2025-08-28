@@ -637,7 +637,10 @@ build并复制到nginx目录
 
 [Nginx反向代理详解（附带完整配置实例） - C语言中文网](https://c.biancheng.net/linux/p00hu4d.html)
 
-我一个 `npm run build` 把我服务器爆了，遂 [ubuntu修改虚拟内存（swap空间）_ununtu 修改虚拟内存-CSDN博客](https://blog.csdn.net/hufeng882412/article/details/7930491)
+我一个 `npm run build` 把我服务器爆了，遂 [Ubuntu 上启用 swap 内存，提高运行效率！_ubuntu开启swap-CSDN博客](https://blog.csdn.net/xiaochong0302/article/details/141701914)
+
+还不行 炸了三次 于是
+
 
 
 
