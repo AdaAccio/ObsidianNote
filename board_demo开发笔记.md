@@ -625,7 +625,8 @@ docker安装数据库
 build并运行
 
 > redis连不上怎么办！
-> 公网ip要么放防火墙任由黑客拷打，要么用私有ip
+> 公网ip要么放防火墙任由黑客拷打，要么用私有ip，配置到 `applicaion.yml` 和 `api.js` 中
+> `applicaion.yml` 可以有多个，不同就互相覆盖
 
 
 
