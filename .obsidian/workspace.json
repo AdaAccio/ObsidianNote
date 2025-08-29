@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "board_demo开发笔记.md",
+                "file": "传头像.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "board_demo开发笔记"
+              "title": "传头像"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "头像",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -222,8 +223,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "746670c1a90b6374",
+  "active": "3d5fefd2e35350b7",
   "lastOpenFiles": [
+    "image-6.png",
+    "image-5.png",
+    "image-4.png",
     "board_demo开发笔记.md",
     "cs/Linux_Ubuntu.md",
     "image-3.png",
@@ -246,7 +250,6 @@
     "cs/SpringSecurity/SpringSecurity.md",
     "MyOwnObsidian/Main.md",
     "知识点/图床.md",
-    "image-4.png",
     "cs/SpringSecurity",
     "MyOwnObsidian/Dataview实现每日总结.md",
     "cs/ai相关/prompt.md",
