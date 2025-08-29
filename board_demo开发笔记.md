@@ -663,3 +663,12 @@ token方面：需要把apifox中的变量改成有role的变量
 
 对应VO类：继承了IBase<>的类是LoginVO类，对应的权限方法也要用这个
 
+## 15 加入传头像
+
+[[传头像]]
+
+放到服务器上编译遇到问题
+
+```
+Could not resolve dependencies for project com.dadibadi.book:book-core-sdk:jar:1.0: Failed to collect dependencies at com.aliyun.oss:aliyun-sdk-oss:jar:3.17.4:
+```
