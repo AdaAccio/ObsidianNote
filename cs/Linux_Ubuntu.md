@@ -155,10 +155,10 @@ mvn -f ../pom.xml clean package -pl ${MODULE}-application -am -Dmaven.test.skip=
 
 {MODULE}里面填写的是主模块名
 
-进模块中找到jar包，运行
+进模块中找到jar包，运行  `>out.log` 输出日志 `&` 后台运行 
 
 ```shell
-java -jar app.jar
+java -jar app.jar >out.log &
 ```
 
 查看运行中的Java程序
@@ -167,4 +167,10 @@ java -jar app.jar
 ps -ef|grep java
 ```
 
-grep
+grep 过滤
+
+输出日志
+
+```shell
+tail out.log
+```
