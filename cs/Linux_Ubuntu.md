@@ -160,3 +160,11 @@ mvn -f ../pom.xml clean package -pl ${MODULE}-application -am -Dmaven.test.skip=
 ```shell
 java -jar app.jar
 ```
+
+查看运行中的Java程序
+
+```shell
+ps -ef|grep java
+```
+
+grep
