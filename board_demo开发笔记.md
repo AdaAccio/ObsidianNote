@@ -639,7 +639,7 @@ build并复制到nginx目录
 
 我一个 `npm run build` 把我服务器爆了，遂 [Ubuntu 上启用 swap 内存，提高运行效率！_ubuntu开启swap-CSDN博客](https://blog.csdn.net/xiaochong0302/article/details/141701914)
 
-还不行 炸了三次 
+还不行 炸了三次 于是花了一百五十多给服务器扩了内存
 
 ![|700x377](https://gitee.com/xin_accio/pic-go-images/raw/master/20250828174328238.png)
 ![image.png|500x530](https://gitee.com/xin_accio/pic-go-images/raw/master/20250828174951912.png)
