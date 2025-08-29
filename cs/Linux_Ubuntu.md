@@ -174,3 +174,7 @@ grep 过滤
 ```shell
 tail out.log
 ```
+
+```shell
+nohup java -jar -e "SPRING_PROFILES_ACTIVE=prod" book-core-application-1.0.jar
+```
