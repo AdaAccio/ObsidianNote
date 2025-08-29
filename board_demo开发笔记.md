@@ -661,4 +661,4 @@ build并复制到nginx目录
 
 token方面：需要把apifox中的变量改成有role的变量
 
-对应VO类：继承了IBase<>的类是LoginVO类
+对应VO类：继承了IBase<>的类是LoginVO类，对应的权限方法也要用这个
