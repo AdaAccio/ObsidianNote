@@ -672,3 +672,5 @@ token方面：需要把apifox中的变量改成有role的变量
 ```
 Could not resolve dependencies for project com.dadibadi.book:book-core-sdk:jar:1.0: Failed to collect dependencies at com.aliyun.oss:aliyun-sdk-oss:jar:3.17.4:
 ```
+
+app用户对maven的镜像没有写入权限，就没法拿出来镜像，所以更新依赖时切换到root用户
