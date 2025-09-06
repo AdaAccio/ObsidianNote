@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/Linux_Ubuntu.md",
+                "file": "board_demo开发笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux_Ubuntu"
+              "title": "board_demo开发笔记"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "传头像.md",
+                "file": "cs/Linux_Ubuntu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "传头像"
+              "title": "Linux_Ubuntu"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,11 +222,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "746670c1a90b6374",
+  "active": "3d5fefd2e35350b7",
   "lastOpenFiles": [
+    "传头像.md",
     "board_demo开发笔记.md",
     "cs/Linux_Ubuntu.md",
-    "传头像.md",
     "image-7.png",
     "image-6.png",
     "image-5.png",
