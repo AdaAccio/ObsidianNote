@@ -44,7 +44,7 @@ tag代表立场，不分析CP向，但是也不要拿我的内容给其他成分
 
 ![b15de1a7a8069cf3fbe57deb5be2914f.jpg|700x243](https://gitee.com/xin_accio/pic-go-images/raw/master/b15de1a7a8069cf3fbe57deb5be2914f.jpg)
 
-
+目前只有结果是确定的，那么就是丹恒接过了（或者是辅助性地接过）「大地」黄金裔的职责，并且成为了半神，此时也在「不朽」命途上产生了新的突破。
 
 列车组每一个人都和宇宙的命运息息相关。
 
