@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "星河扁舟.md",
+                "file": "cs/计网实验.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "星河扁舟"
+              "title": "计网实验"
             }
           }
         ],
@@ -252,8 +252,9 @@
   },
   "active": "79b958f642b73c15",
   "lastOpenFiles": [
-    "同人/关于丹恒、三月七新sp的一些考据.md",
     "星河扁舟.md",
+    "cs/计网实验.md",
+    "同人/关于丹恒、三月七新sp的一些考据.md",
     "cs/anaconda/Jupyter.md",
     "cs/anaconda",
     "b15de1a7a8069cf3fbe57deb5be2914f.jpg",
@@ -288,7 +289,6 @@
     "cs/ai相关/few-shot.md",
     "cs/数据库/Mysql/分页查找.md",
     "cs/ai相关/ai相关.md",
-    "cs/数据库/Mybatis-plus/分页查找.md",
     "cs/数据库/Mysql",
     "cs/数据库",
     "cs/数据库/Mybatis-plus",
