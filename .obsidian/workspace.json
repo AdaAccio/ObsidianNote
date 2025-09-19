@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "同人/星河扁舟.md",
+                "file": "传头像.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "星河扁舟"
+              "title": "传头像"
             }
           },
           {
@@ -224,14 +224,15 @@
   },
   "active": "8fc80ff5bff34c38",
   "lastOpenFiles": [
+    "cs/Linux_Ubuntu.md",
+    "传头像.md",
+    "同人/星河扁舟.md",
     "同人/关于丹恒、三月七新sp的一些考据.md",
     "cs/计网实验.md",
     "board_demo开发笔记.md",
-    "同人/星河扁舟.md",
     "cs/anaconda/Jupyter.md",
     "cs/anaconda",
     "b15de1a7a8069cf3fbe57deb5be2914f.jpg",
-    "cs/Linux_Ubuntu.md",
     "image-7.png",
     "image-6.png",
     "image-5.png",
@@ -239,7 +240,6 @@
     "image-3.png",
     "image-2.png",
     "image-1.png",
-    "传头像.md",
     "cs/数据库/Mysql/MySql.md",
     "知识点/SCP.md",
     "cs/git.md",
