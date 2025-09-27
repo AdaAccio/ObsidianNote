@@ -76,9 +76,23 @@
               "icon": "lucide-file",
               "title": "AI导论 pre2"
             }
+          },
+          {
+            "id": "5169a6aaabd730af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cs/ai相关/随机森林.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "随机森林"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -250,12 +264,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "082b09f7a97de05c",
+  "active": "5169a6aaabd730af",
   "lastOpenFiles": [
+    "cs/ai相关/ai相关.md",
+    "cs/ai相关/随机森林.md",
+    "知识点/鲁棒性.md",
+    "AI导论 pre2.md",
     "image-2.png",
     "image-1.png",
     "数电课设.md",
-    "AI导论 pre2.md",
     "image.png",
     "知识点/List排序.md",
     "未命名",
@@ -286,8 +303,6 @@
     "cs/cs.md",
     "cs/SpringSecurity/Role.md",
     "cs/SpringSecurity/SpringSecurity.md",
-    "MyOwnObsidian/Main.md",
-    "知识点/图床.md",
     "cs/SpringSecurity",
     "cs/数据库/Mysql",
     "cs/数据库",
