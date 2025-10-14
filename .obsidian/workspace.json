@@ -95,12 +95,14 @@
             "id": "68e2531a2828ee63",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "cs/ai相关/prompt.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.9.14"
+              "icon": "lucide-file",
+              "title": "prompt"
             }
           }
         ],
@@ -136,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "头像",
+                "query": "json",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +159,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
