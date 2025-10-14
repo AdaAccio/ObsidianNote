@@ -95,14 +95,13 @@
             "id": "68e2531a2828ee63",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "cs/ai相关/prompt.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "prompt"
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ],
@@ -281,6 +280,8 @@
   },
   "active": "68e2531a2828ee63",
   "lastOpenFiles": [
+    "cs/ai相关/prompt.md",
+    "未命名.base",
     "cs/SpringSecurity/Role.md",
     "cs/web/Servlet.md",
     "cs/web",
@@ -318,14 +319,12 @@
     "知识点/SCP.md",
     "cs/git.md",
     "知识点/OSS.md",
-    "知识点/cookie session token.md",
     "cs/SpringSecurity",
     "cs/数据库/Mysql",
     "cs/数据库",
     "cs/数据库/Mybatis-plus",
     "未命名 2.base",
     "未命名 1.base",
-    "未命名.base",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
