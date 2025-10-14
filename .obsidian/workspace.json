@@ -90,9 +90,21 @@
               "icon": "lucide-file",
               "title": "Servlet"
             }
+          },
+          {
+            "id": "68e2531a2828ee63",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.14"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -264,7 +276,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5169a6aaabd730af",
+  "active": "68e2531a2828ee63",
   "lastOpenFiles": [
     "cs/SpringSecurity/Role.md",
     "cs/web/Servlet.md",
