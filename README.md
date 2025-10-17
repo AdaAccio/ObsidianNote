@@ -12,3 +12,5 @@ http://www.blog.gamfun.com **成品直接点这里**
 后端：SpringBoot+MybatisPlus
 
 其他工具：Redis
+
+阿里云OSS/服务器
