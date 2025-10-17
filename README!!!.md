@@ -9,8 +9,8 @@ board_demo
 域名为：
 http://www.blog.gamfun.com **无需部署，直接点这里看成品**
 
+前后端分离
 前端：React
-
 后端：SpringBoot+MybatisPlus
 
 其他工具：Redis
