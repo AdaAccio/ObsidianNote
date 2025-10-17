@@ -5,7 +5,7 @@ board_demo
 目前处于一个demo阶段，后续会更新更好的前端页面
 
 域名为：
-http://www.blog.gamfun.com
+http://www.blog.gamfun.com **成品直接点这里**
 
 前端：React
 
