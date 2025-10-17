@@ -10,3 +10,5 @@ http://www.blog.gamfun.com **成品直接点这里**
 前端：React
 
 后端：SpringBoot+MybatisPlus
+
+其他工具：Redis
