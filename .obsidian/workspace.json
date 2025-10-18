@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/数据库/Mysql/分页查找.md",
+                "file": "cs/数据库/Mysql/排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "分页查找"
+              "title": "排序"
             }
           }
         ],
@@ -224,8 +224,9 @@
   },
   "active": "014430df88d1d7bc",
   "lastOpenFiles": [
-    "cs/数据库/Mysql/连接查找.md",
     "cs/数据库/Mysql/分页查找.md",
+    "cs/数据库/Mysql/排序.md",
+    "cs/数据库/Mysql/连接查找.md",
     "cs/数据库/Mysql/IN NOT IN.md",
     "cs/数据库/Mysql/投影.md",
     "cs/数据库/Mysql/未命名",
@@ -256,7 +257,6 @@
     "cs/ai相关/决策树.md",
     "image-3.png",
     "cs/ai相关/随机森林.md",
-    "cs/ai相关/ai相关.md",
     "未命名",
     "b15de1a7a8069cf3fbe57deb5be2914f.jpg",
     "cs/anaconda",
