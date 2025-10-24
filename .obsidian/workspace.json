@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/数据库/Mysql/GROUP BY.md",
+                "file": "cs/数据库/Mysql/MySql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GROUP BY"
+              "title": "MySql"
             }
           }
         ],
@@ -238,8 +238,8 @@
   },
   "active": "85fe9ac73a138334",
   "lastOpenFiles": [
-    "cs/数据库/Mysql/INNER JOIN.md",
     "cs/数据库/Mysql/GROUP BY.md",
+    "cs/数据库/Mysql/INNER JOIN.md",
     "cs/数据库/Mysql/模糊条件的查找.md",
     "cs/数据库/Mysql/排序.md",
     "cs/数据库/Mysql/分页查找.md",
