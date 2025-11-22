@@ -186,3 +186,20 @@ nohup java -jar -d "SPRING_PROFILES_ACTIVE=prod" book-core-application-1.0.jar
 /etc/netplan/xxx.yaml
 ```
 
+```yml
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: no
+      addresses: 
+        - 192.168.2.66/24 //此处随便选一个能用的IP
+      routes:
+        - to: default
+          via: 192.168.2.1 //最后1位.1 是网关
+      nameservers:
+        addresses:
+          - 114.114.114.114
+          - 8.8.8.8
+```
