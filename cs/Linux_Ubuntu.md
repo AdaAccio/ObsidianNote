@@ -178,3 +178,11 @@ tail out.log
 ```shell
 nohup java -jar -d "SPRING_PROFILES_ACTIVE=prod" book-core-application-1.0.jar
 ```
+
+# 网络配置
+
+配置文件位置
+```Shell
+/etc/netplan/xxx.yaml
+```
+
