@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/Linux_Ubuntu.md",
+                "file": "board_demo开发笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux_Ubuntu"
+              "title": "board_demo开发笔记"
             }
           }
         ],
@@ -238,9 +238,9 @@
   },
   "active": "b69440b2f59c176e",
   "lastOpenFiles": [
+    "cs/Linux_Ubuntu.md",
     "未命名.base",
     "board_demo开发笔记.md",
-    "cs/Linux_Ubuntu.md",
     "每日总结.md",
     "数电课设.md",
     "cs/数据库/Mysql/MySql.md",
