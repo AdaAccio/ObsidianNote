@@ -129,8 +129,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -249,7 +248,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0cd6fc61f19d60ee",
+  "active": "3c246f1fb16b71cc",
   "lastOpenFiles": [
     "cs/Linux_Ubuntu.md",
     "未命名.base",
