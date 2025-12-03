@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/Linux_Ubuntu.md",
+                "file": "board_demo开发笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux_Ubuntu"
+              "title": "board_demo开发笔记"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "cs/Linux_Ubuntu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Linux_Ubuntu"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -253,11 +253,11 @@
   },
   "active": "0f4114dfcbfab388",
   "lastOpenFiles": [
-    "cs/Linux_Ubuntu.md",
-    "cs/数据库/Mysql/分页查找.md",
-    "README.md",
-    "README!!!.md",
     "board_demo开发笔记.md",
+    "cs/Linux_Ubuntu.md",
+    "README.md",
+    "cs/数据库/Mysql/分页查找.md",
+    "README!!!.md",
     "cs/数据库/Mybatis-plus/连接查找.md",
     "cs/数据库/Mysql/MySql.md",
     "每日总结.md",

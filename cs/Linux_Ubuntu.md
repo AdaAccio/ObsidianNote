@@ -158,7 +158,7 @@ mvn -f ../pom.xml clean package -pl ${MODULE}-application -am -Dmaven.test.skip=
 进模块中找到jar包，运行  `>out.log` 输出日志 `&` 后台运行 
 
 ```shell
-java -jar app.jar >out.log &
+java -jar book-core-application-1.0.jar >out.log &
 ```
 
 查看运行中的Java程序
