@@ -79,4 +79,23 @@ data:
         max-wait: 1000  
       shutdown-timeout: 1000
 ```
-### 3.3 
+### 3.3 前端设置
+
+若连接本地后端
+解压后打开 `react/src/services`
+``` js
+const api = axios.create({
+
+  baseURL: 'http://api.blog.gamfun.com',//
+
+  timeout: 30000, // 增加超时时间
+
+  headers: {
+
+    'Content-Type': 'application/json',
+
+  },
+
+
+});
+```
