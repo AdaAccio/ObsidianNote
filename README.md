@@ -86,7 +86,9 @@ data:
 ``` js
 const api = axios.create({
 
-  baseURL: 'http://api.blog.gamfun.com',//
+  baseURL: 'http://api.blog.gamfun.com',
+
+  //baseURL: 'http://172.22.108.199:8888', 修改为本机IP的8888端口
 
   timeout: 30000, // 增加超时时间
 
