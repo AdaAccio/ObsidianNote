@@ -15,11 +15,12 @@ http://www.blog.gamfun.com
 ### 2.1 开发环境
 
 - jdk17
-- idea 2020.3
+- idea 2023.2
 - groovy3.0.7以上
-- Redis
-
-
+其他工具
+- Redis 8.2.0
+- mysql 8.0
+- 阿里云服务器/对象存储oss
 ## 3 配置说明
 
 ### 3.1 maven设置
@@ -50,5 +51,7 @@ http://www.blog.gamfun.com
 </settings>
 
 ```
+
+### 3.2 springboot配置文件设置
 
 

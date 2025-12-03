@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -251,8 +251,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2cdc1cf4a28292a9",
+  "active": "0f4114dfcbfab388",
   "lastOpenFiles": [
+    "cs/Linux_Ubuntu.md",
     "cs/数据库/Mysql/分页查找.md",
     "README.md",
     "README!!!.md",
@@ -267,7 +268,6 @@
     "image-4.png",
     "image-3.png",
     "image-2.png",
-    "cs/Linux_Ubuntu.md",
     "未命名.base",
     "数电课设.md",
     "cs/数据库/Mysql/INNER JOIN.md",
