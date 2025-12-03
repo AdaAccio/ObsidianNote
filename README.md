@@ -54,4 +54,27 @@ http://www.blog.gamfun.com
 
 ### 3.2 springboot配置文件设置
 
+在 `application.yml` 中，修改相应的IP地址
 
+``` yml
+datasource:  
+  type: com.alibaba.druid.pool.DruidDataSource  
+  driver-class-name: com.mysql.cj.jdbc.Driver  
+  url: //修改为ben'j
+  username: root  
+  password: joyous@11739  
+data:  
+  redis:  
+    database: 0  
+    host: 172.25.39.5  
+    port: 6379  
+    password: joyous@11739  
+    timeout: 5000  
+    lettuce:  
+      pool:  
+        max-active: 8  
+        max-idle: 8  
+        min-idle: 2  
+        max-wait: 1000  
+      shutdown-timeout: 1000
+```
