@@ -2,14 +2,16 @@
 
 ## 1 介绍
 
-域名为：
+本站域名为：
 http://www.blog.gamfun.com 
 无需部署即可直接查看项目
 
-基于标准spring boot构建
 前端：React
 后端：SpringBoot+MybatisPlus
 
+本项目已上传gitee
+前端：[Twilight/NeuvifuriBullentinboard_React](https://gitee.com/xin_accio/neuvifuri-bullentinboard_-react)
+后端：[Twilight/board_demo_server](https://gitee.com/xin_accio/board_demo_server)
 ## 2 软件架构
 
 ### 2.1 开发环境
