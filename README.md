@@ -54,19 +54,20 @@ http://www.blog.gamfun.com
 
 ### 3.2 springboot配置文件设置
 
-在 `application.yml` 中，修改相应的IP地址
+若要使用本地数据库 在 `application.yml` 中，修改相应的IP地址
+（不修改也可以，即连接服务器上的远程数据库）
 
 ``` yml
 datasource:  
   type: com.alibaba.druid.pool.DruidDataSource  
   driver-class-name: com.mysql.cj.jdbc.Driver  
-  url: //修改为ben'j
+  url: jdbc:mysql://172.25.39.5:3306/board_demo  //修改为本机IP以及端口
   username: root  
   password: joyous@11739  
 data:  
   redis:  
     database: 0  
-    host: 172.25.39.5  
+    host: 172.25.39.5  //修改为本机IP以及端口
     port: 6379  
     password: joyous@11739  
     timeout: 5000  
@@ -78,3 +79,4 @@ data:
         max-wait: 1000  
       shutdown-timeout: 1000
 ```
+### 3.3 
