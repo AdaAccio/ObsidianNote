@@ -150,7 +150,7 @@ mvn spring-boot:run
 用这个
 
 ```shell
-mvn -f ../pom.xml clean package -pl ${MODULE}-application -am -Dmaven.test.skip=true
+mvn -f ../pom.xml clean package -pl book-core-application -am -Dmaven.test.skip=true
 ```
 
 {MODULE}里面填写的是主模块名
