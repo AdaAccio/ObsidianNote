@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducing_My_Assistant.md",
+                "file": "oc/人设卡/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introducing_My_Assistant"
+              "title": "未命名"
             }
           }
         ],
@@ -224,8 +224,9 @@
   },
   "active": "3c246f1fb16b71cc",
   "lastOpenFiles": [
-    "南柯影音部内培——宣传海报那些事.md",
+    "传头像.md",
     "Introducing_My_Assistant.md",
+    "南柯影音部内培——宣传海报那些事.md",
     "AI导论作业.md",
     "cs/OpenClaw.md",
     "oc/人设卡/未命名.md",
@@ -259,7 +260,6 @@
     "image-2.png",
     "未命名.base",
     "b15de1a7a8069cf3fbe57deb5be2914f.jpg",
-    "AI导论 pre2.md",
     "cs/数据库/Mysql/未命名",
     "cs/web",
     "cs/anaconda",
