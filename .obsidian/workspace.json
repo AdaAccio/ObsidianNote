@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "1 两数之和"
             }
+          },
+          {
+            "id": "f8de97642f388c74",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -236,7 +248,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "34dc1d44b3374b70",
+  "active": "f8de97642f388c74",
   "lastOpenFiles": [
     "软件工程.md",
     "算法题/1 两数之和.md",
