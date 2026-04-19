@@ -67,12 +67,14 @@
             "id": "f8de97642f388c74",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "board_demo开发笔记.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.7"
+              "icon": "lucide-file",
+              "title": "board_demo开发笔记"
             }
           }
         ],
@@ -108,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +131,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -248,8 +251,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8de97642f388c74",
+  "active": "f2166e64ed7a9e5d",
   "lastOpenFiles": [
+    "cs/Linux_Ubuntu.md",
+    "board_demo开发笔记.md",
     "软件工程.md",
     "算法题/1 两数之和.md",
     "算法题",
@@ -274,12 +279,10 @@
     "同人/未命名 1.md",
     "部署文档.md",
     "cs/数据库/Mysql/INNER JOIN.md",
-    "board_demo开发笔记.md",
     "oc/何年何月的重逢.md",
     "oc",
     "同人/关于丹恒、三月七新sp的一些考据.md",
     "README!!!.md",
-    "cs/Linux_Ubuntu.md",
     "cs/数据库/Mysql/分页查找.md",
     "cs/数据库/Mybatis-plus/连接查找.md",
     "image-1.png",
