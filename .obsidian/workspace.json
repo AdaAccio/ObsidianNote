@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -264,10 +264,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "910fb17688705f63",
+  "active": "c8002ce69c2ddf56",
   "lastOpenFiles": [
-    "未命名.md",
     "cs/Linux_Ubuntu.md",
+    "未命名.md",
     "未命名",
     "board_demo开发笔记.md",
     "软件工程.md",
