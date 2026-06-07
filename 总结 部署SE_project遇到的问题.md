@@ -9,3 +9,8 @@
 ## 2 docker desktop
 脑抽下载了docker desktop
 现在它不仅和我的虚拟机冲突 刚下的时候wsl里面还没有ubuntu
+wsl是思维驰学习机但是Ubuntu是卡带
+哎呀我真是脑抽了我受不了了
+后来把docker删了重下
+
+
