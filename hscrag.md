@@ -268,3 +268,41 @@ HSC_RAG
 
   最合适的阅读顺序是：backend/app/core/schemas.py:38 → backend/app/chunkers/hsc_rag.py:68 → backend/app/services/
   chunking_service.py:107 → scripts/run_agent_pipeline.py:141 → backend/app/main.py:52 → frontend/src/App.tsx:288。
+
+
+``` mermaid
+graph TD
+    %% Entry Point
+    chunk_doc["chunk_document<br/>(公开入口)"] --> adaptive_cfg["_adaptive_config_for_document<br/>(自适应配置)"]
+    chunk_doc --> init_chunk["_build_initial_chunks<br/>(构建初始分块)"]
+    chunk_doc --> merge_short["_merge_short_chunks<br/>(后置合并小块)"]
+    chunk_doc --> renumber["_renumber<br/>(最终对分块重新编号)"]
+
+    %% Adaptive Config Sub-graph
+    adaptive_cfg --> doc_stats["_document_boundary_stats<br/>(统计文档特征)"]
+    adaptive_cfg --> cfg_snap["_config_snapshot<br/>(备份快照)"]
+    doc_stats --> percentile["_percentile<br/>(计算分位数)"]
+    doc_stats --> rate["_rate<br/>(计算频率)"]
+    doc_stats --> sem_sim["_semantic_similarity<br/>(评估相邻语义相似度)"]
+
+    %% Initial Chunking Sub-graph
+    init_chunk --> flush["flush<br/>(闭包: 打包缓冲区)"]
+    init_chunk --> same_title["_same_title_path<br/>(判断同一章节)"]
+    init_chunk --> score_boundary["_score_boundary<br/>(评分并判定边界)"]
+    
+    score_boundary --> struct_sig["_structure_signal<br/>(结构变化信号)"]
+    score_boundary --> sem_sim
+    score_boundary --> policy_meta["_boundary_policy_metadata<br/>(边界元数据)"]
+
+    %% Similarity computation
+    sem_sim --> tok_cnt["_token_counter<br/>(文本词频袋构建)"]
+
+    %% Merging Sub-graph
+    merge_short --> merge_allow["_merge_allowed<br/>(合法性检查)"]
+    merge_short --> merge_pair["_merge_pair<br/>(物理合并两块)"]
+
+    style chunk_doc fill:#2E8B57,stroke:#fff,stroke-width:2px,color:#fff
+    style init_chunk fill:#1F77B4,stroke:#fff,stroke-width:1px,color:#fff
+    style score_boundary fill:#1F77B4,stroke:#fff,stroke-width:1px,color:#fff
+
+```
