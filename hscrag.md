@@ -81,3 +81,190 @@ HSC_RAG
         *   **MRR (Mean Reciprocal Rank)**：正确答案排在第几名，排得越靠前分数越高。
         *   **nDCG@5**：多标签排序的归一化折损累计增益，评估前 5 个结果的整体相关性顺序。
     *   `run_longbench_mcq_eval.py`：进阶实验，把检索出来的 chunks 给下游大模型，看大模型做选择题的正确率。
+
+
+
+
+公开数据集 / Markdown / GovernedDocument
+                      │
+                      ▼
+          数据适配与结构标准化
+   QASPER / CJRC / DuReader / HotpotQA / LongBench
+                      │
+                      ▼
+               GovernedDocument
+       文档 → 标题层级 → Block → 来源锚点
+                      │
+                      ▼
+                分块服务层
+   fixed / recursive / semantic / hsc_rag
+                      │
+                      ▼
+                  RagChunk[]
+   text + title_path + source_blocks + source_anchor
+   tags + summary + quality_flags + metadata
+            │                         │
+            ▼                         ▼
+   BM25 / Dense / Hybrid       LLM 语义组织增强
+            │              摘要、标签、实体、质量评估
+            ▼
+   Recall@K / MRR / nDCG / Bad Case
+            │
+            ▼
+   JSON/JSONL 实验产物 → FastAPI → React 看板
+
+  技术栈
+
+  后端使用 Python 3.11、FastAPI、Pydantic 2、LangChain/LangGraph、FAISS、scikit-learn、rank-bm25、jieba、NumPy 和
+  Pandas。依赖集中在 requirements.txt。
+
+  前端使用 React 19、TypeScript、Vite 和 lucide-react，配置位于 frontend/package.json。
+
+  项目当前没有数据库。实验结果主要以 JSON、JSONL、CSV 文件保存在 data/processed/，API 通过文件读取和内存缓存向前端提供数
+  据。
+
+  后端分层
+
+  1. API 入口
+
+  backend/app/main.py:22 创建 FastAPI 应用，API 分为三类：
+
+  - POST /api/v1/chunk：单文档分块。
+  - POST /api/v1/chunk/batch：批量文档分块。
+  - POST /api/v1/agent/run：LangChain Agent 编排。
+  - /api/overview、/api/metrics、/api/queries、/api/bad-cases：读取评测结果。
+  - /api/queries/{query_id}/comparison：查看同一个问题在四种分块策略下的 Top-5 对比。
+
+  2. 核心数据契约
+
+  backend/app/core/schemas.py:38 是整个项目最重要的协议层：
+
+  - SourceAnchor：指向原始数据集、文档、章节、段落或资源文件。
+  - GovernedBlock：治理后的最小结构块，包含类型、顺序、标题路径和来源锚点。
+  - GovernedQuery：问题、答案以及 gold evidence 映射。
+  - GovernedDocument：HSC-RAG 的标准输入。
+  - RagChunk：分块后的标准输出。
+  - ChunkAgentRequest/Response：在线分块接口契约。
+  - LangChainAgentRequest/Response：Agent 接口契约。
+
+  这里明确划分了系统职责：HSC-RAG 不直接负责 PDF/HTML 清洗和术语治理，而是接收已经标准化的 GovernedDocument。
+
+  3. 数据集适配层
+
+  backend/app/adapters/ 将不同数据集转换成统一契约：
+
+  - qasper_adapter.py：英文结构化论文，作为主检索实验。
+  - cjrc_adapter.py：中文司法文档。
+  - dureader_adapter.py：中文网页问答。
+  - hotpotqa_adapter.py：多跳问答。
+  - longbench_adapter.py：超长上下文、多选任务。
+
+  适配完成后一般生成：
+
+  governed_documents.jsonl
+  blocks.jsonl
+  gold_evidence.jsonl
+  queries.csv
+  conversion_report.json
+
+  4. 分块算法层
+
+  分块器统一接受 GovernedDocument，输出 RagChunk[]：
+
+  - backend/app/chunkers/fixed.py:32：固定窗口基线。
+  - backend/app/chunkers/recursive.py:42：递归切分基线。
+  - backend/app/chunkers/semantic.py:46：基于句间语义距离的切分。
+  - backend/app/chunkers/hsc_rag.py:68：核心的层级结构感知分块。
+
+  HSC-RAG 默认目标长度约为 512 tokens，最小 180，最大 900。它综合以下信号决定边界：
+
+  - title_path 和章节切换。
+  - 相邻块语义距离。
+  - 当前 chunk 长度。
+  - 文档整体结构密度和上下文需求。
+  - table、figure、code、formula、list 等受保护块。
+  - 中文司法文档的特殊断句规则。
+
+  它还会为边界保存 closing_boundary_decision，记录结构信号、语义距离、边界分数和切分原因，因此算法结果具备可解释性和可回
+  溯性。
+
+  5. 分块服务层
+
+  backend/app/services/chunking_service.py:27 通过注册表统一管理四种分块器。API、Agent 和命令行流水线最终都复用这一层。
+
+  服务还生成分块报告，包括：
+
+  - chunk 数量和 token 分布。
+  - quality flag 统计。
+  - 平均边界分数。
+  - 平均语义距离。
+  - 语义边界触发次数。
+  - 各类切分原因统计。
+
+  6. 检索与评测层
+
+  backend/app/retrievers/ 提供三类检索器：
+
+  - BM25ChunkRetriever：支持英文、中文字符 n-gram 和 jieba 等分词配置。
+  - DenseFaissRetriever：支持本地 SentenceTransformer，也支持确定性的 TF-IDF + SVD + FAISS 回退。
+  - HybridRetriever：BM25 和 Dense 的加权融合，或 RRF 排名融合。
+
+  离线评测由 scripts/run_retrieval_eval.py:449 执行，主要指标是 Recall@1/3/5、MRR、nDCG@5、Hit Rate 和 Full Recall
+  Rate。
+
+  7. Agent 与 LLM 层
+
+  backend/app/services/langchain_agent_service.py:73 将分块能力包装为 LangChain Structured Tools，包括：
+
+  - 检查文档上下文。
+  - 单文档分块。
+  - 批量分块。
+  - 分块后执行 LLM 语义增强。
+
+  这里的设计重点是：大模型不直接决定核心边界。边界仍由确定性分块器产生；LLM 负责工具选择以及分块后的摘要、主题标签、实
+  体、完整性评分和可选 QA 样本生成。
+
+  Provider 支持离线 mock 和 openai_compatible，因此可以对接 OpenAI、DeepSeek、通义、SiliconFlow 或本地 vLLM 服务。
+
+  前端结构
+
+  前端目前是一个单页工作台，frontend/src/App.tsx:288 包含两个主要页面：
+
+  - “JSON 分段”：上传 GovernedDocument 或 ChunkAgentRequest JSON，调整分块参数，调用 /api/v1/chunk，展示 chunk 文本、来
+    源锚点、质量标记和边界信息。
+
+  - “评估看板”：切换数据集和 BM25/Dense/Hybrid 检索器，查看指标矩阵、bad case、全部问题和四种分块策略的 Top-5 对比。
+
+  frontend/src/api.ts:1 同时定义前端 TypeScript 数据类型和 API 请求函数。前端通过 VITE_API_BASE 配置后端地址；未配置时使
+  用同源相对路径。
+
+  离线流水线
+
+  scripts/ 是项目实验流程的主要入口：
+
+  convert_*.py
+      数据集 → GovernedDocument / GoldEvidence
+
+  run_chunking.py
+      GovernedDocument → 四种策略的 chunks_*.jsonl
+
+  run_retrieval_eval.py
+      chunks + gold evidence → 检索指标和逐 query 结果
+
+  run_llm_enrichment.py
+      chunks → LLM 摘要、标签、实体、QA
+
+  run_agent_pipeline.py
+      将转换、分块、评测、增强串成统一流水线
+
+  validate_*.py
+      校验数据契约、chunk 来源完整性和验收指标
+
+  项目定位
+
+  这个仓库当前更接近“分块算法研究平台 + 检索评测平台 + Agent 演示系统”，还不是完整的生产型知识库问答系统。它已经覆盖数据
+  转换、分块、检索评测、LLM 增强、API 和可视化，但暂时没有持久化向量库、用户体系、文档管理、在线索引更新、检索生成式问答
+  和生产部署配置。
+
+  最合适的阅读顺序是：backend/app/core/schemas.py:38 → backend/app/chunkers/hsc_rag.py:68 → backend/app/services/
+  chunking_service.py:107 → scripts/run_agent_pipeline.py:141 → backend/app/main.py:52 → frontend/src/App.tsx:288。
