@@ -91,6 +91,8 @@ buffer_tokens / target_tokens
 4. 评分≥0.62 且 缓冲≥180tokens → 综合评分边界
 5. 缓冲≥目标token数 且 评分≥0.52 → 目标长度边界
 ```
+flowchart TD
+Start --> Stop
 
 ### 3.4 自适应配置（`_adaptive_config_for_document`）
 
