@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "实训"
             }
+          },
+          {
+            "id": "22ea5e0b96788b49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hscrag.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hscrag"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,10 +237,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a23a8c5c1b37409b",
+  "active": "22ea5e0b96788b49",
   "lastOpenFiles": [
-    "开发答辩.md",
+    "hscrag.md",
     "实训.md",
+    "开发答辩.md",
     "cs/Linux_Ubuntu.md",
     "部署文档.md",
     "南柯影音部内培——宣传海报那些事.md",
@@ -256,7 +271,6 @@
     "image-3.png",
     "每日总结.md",
     "建立分支.md",
-    "创建链接.md",
     "oc",
     "image-1.png",
     "image-4.png",
