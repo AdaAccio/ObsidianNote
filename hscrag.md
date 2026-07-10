@@ -270,6 +270,9 @@ HSC_RAG
   chunking_service.py:107 → scripts/run_agent_pipeline.py:141 → backend/app/main.py:52 → frontend/src/App.tsx:288。
 
 
+
+## 4 hsc_rag 算法
+
 ``` mermaid
 graph TD
     %% Entry Point
@@ -306,3 +309,4 @@ graph TD
     style score_boundary fill:#1F77B4,stroke:#fff,stroke-width:1px,color:#fff
 
 ```
+
