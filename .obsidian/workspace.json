@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hscrag/各个实验.md",
+                "file": "hscrag/检索算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "各个实验"
+              "title": "检索算法"
             }
           }
         ],
@@ -277,8 +277,9 @@
   },
   "active": "3ed2131922821339",
   "lastOpenFiles": [
-    "未命名 1.md",
     "hscrag/各个实验.md",
+    "hscrag/检索算法.md",
+    "未命名 1.md",
     "hscrag/hscrag算法.md",
     "hscrag.md",
     "未命名.md",
@@ -306,7 +307,6 @@
     "软件工程.md",
     "算法题",
     "传头像.md",
-    "AI导论作业.md",
     "oc/人设卡",
     "image.png",
     "image-5.png",
