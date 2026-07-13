@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hscrag/检索算法.md",
+                "file": "hscrag/今日todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "检索算法"
+              "title": "今日todo"
             }
           }
         ],
@@ -277,8 +277,9 @@
   },
   "active": "3ed2131922821339",
   "lastOpenFiles": [
-    "hscrag/各个实验.md",
     "hscrag/检索算法.md",
+    "hscrag/今日todo.md",
+    "hscrag/各个实验.md",
     "未命名 1.md",
     "hscrag/hscrag算法.md",
     "hscrag.md",
@@ -306,7 +307,6 @@
     "board_demo开发笔记.md",
     "软件工程.md",
     "算法题",
-    "传头像.md",
     "oc/人设卡",
     "image.png",
     "image-5.png",
