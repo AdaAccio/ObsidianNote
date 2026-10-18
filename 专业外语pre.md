@@ -48,4 +48,11 @@ RQ4 块大小如何影响检索效果？不同的分割方法会产生不同大�
 
 这些方法利用模型分析文本意义并识别更自然的断点
 
+- 语义sematic 语义评分到达阈值 就是我们项目做的那个
+- 命题 Proposition 每个命题都作为独立的部分，形成高度具体的单元，适合事实检索。
+- LumberChunker 提示llm，如果发现主题转移，就在段paragraphs之间加入断点
+通常建立在结构化方法之上
 #### 1.3.2 分块发生在embedding之前还是之后
+
+- pre-embedding chunking 先chunk再embedding
+- contextualized chunking 先embedding再chunk 先通读上下文，生成包含全局上下文的token级别的embedding
