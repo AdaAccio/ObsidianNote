@@ -56,3 +56,7 @@ RQ4 块大小如何影响检索效果？不同的分割方法会产生不同大�
 
 - pre-embedding chunking 先chunk再embedding
 - contextualized chunking 先embedding再chunk 先通读上下文，生成包含全局上下文的token级别的embedding
+-The final embedding for each chunk is produced by pooling (e.g., averaging) its token embeddings. 
+
+#### 1.3.3 检索方法
+
